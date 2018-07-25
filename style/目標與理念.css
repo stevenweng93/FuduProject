@@ -1,0 +1,197 @@
+
+.目標與理念-banner {
+	background-image: url('百暉首璽外觀1.jpg');
+	height: calc(100vh);
+	background-size: cover;
+	background-position: 0% 100%;
+	background-attachment: fixed;
+}
+
+
+.目標與理念-banner標題 {
+	position: absolute;
+	z-index: 1;
+	font-family: Microsoft JhengHei;
+	font-size: 3.7rem;
+	font-weight: 800;
+	color: #fff;
+	margin-top: 370px;
+	text-shadow: 0px 2px 3px #eee;
+	padding: 10px 100px;
+	background-color: rgba(89,89,89,0.7);
+}
+
+
+.目標與理念-subbanner {
+/*	background-image: url('塔吊.png');*/
+	height: 150px;
+	background-color: #eee;
+/*	background-size: cover;*/
+	position: relative;
+/*	background-position: 20% 0%;
+	background-attachment: fixed;*/
+}
+
+.目標與理念標題 {
+	position: absolute;
+	z-index: 1;
+	font-family: Microsoft JhengHei;
+	font-size: 3.7rem;
+	font-weight: 800;
+	color: #404040;
+	margin: 5.5% 5%;
+	text-shadow: 0px 2px 3px #404040;
+}
+
+.安全性標題, .客戶關係標題, .人際關係標題, .環境社區標題, .負責信任標題, .合作關係標題 {
+	opacity: 0;
+	position: absolute;
+	z-index: 1;
+	font-family: Microsoft JhengHei;
+	font-size: 3.7rem;
+	font-weight: 800;
+	color: #404040;
+	margin: 5.5% 5%;
+	text-shadow: 0px 2px 3px #404040;
+	transition: 0.6s ease-in-out;
+}
+
+.目標與理念-container {
+	height: 550px;
+	padding-top: 35px;
+	padding-left: 40px;
+	background-color: #eee;
+}
+
+.目標與理念description {
+	margin-left: 60px;
+}
+
+.目標與理念picture {
+	margin-left: 20px;
+}
+
+.companyName {
+	color: #404040 !important;
+}
+
+.安全性敘述 {
+	font-family: Microsoft JhengHei;
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: #666;
+	padding-top: 30px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+
+.客戶關係敘述 {
+	font-family: Microsoft JhengHei;
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: #666;
+	padding-top: 30px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.合作關係敘述 {
+	font-family: Microsoft JhengHei;
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: #666;
+	padding-top: 30px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.人際關係敘述 {
+	font-family: Microsoft JhengHei;
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: #666;
+	padding-top: 30px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+
+.環境社區敘述 {
+	font-family: Microsoft JhengHei;
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: #666;
+	padding-top: 30px;
+	position: absolute;
+	opacity: 0;
+}
+
+.負責信任敘述 {
+	font-family: Microsoft JhengHei;
+	font-size: 1.1rem;
+	font-weight: 800;
+	color: #666;
+	padding-top: 30px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.安全性 {
+	width: 380px;
+	height: 250px;
+	position: absolute;
+	margin-top: 100px;
+	transition: 0.7s ease-in-out;
+}
+
+.客戶關係 {
+	margin-top: 100px;
+	width: 380px;
+	height: 250px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.人際關係 {
+	margin-top: 100px;
+	width: 380px;
+	height: 250px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.環境社區 {
+	margin-top: 100px;
+	width: 380px;
+	height: 250px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.負責信任 {
+	margin-top: 100px;
+	width: 380px;
+	height: 250px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+
+.合作關係 {
+	margin-top: 100px;
+	width: 380px;
+	height: 250px;
+	position: absolute;
+	opacity: 0;
+	transition: 0.7s ease-in-out;
+}
+

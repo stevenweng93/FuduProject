@@ -1,0 +1,686 @@
+
+.歷年-banner {
+	background-image: url('文山印象1.jpg');
+	height: calc(100vh);
+	background-size: cover;
+	background-position: 0% 100%;
+	background-attachment: fixed;
+}
+
+
+.歷年建案標題 {
+	position: absolute;
+	z-index: 1;
+	font-family: Microsoft JhengHei;
+	font-size: 3.7rem;
+	font-weight: 800;
+	color: #fff;
+	margin-top: 370px;
+	text-shadow: 0px 2px 3px #eee;
+	padding: 10px 100px;
+	background-color: rgba(89,89,89,0.7);
+}
+
+.area-container {
+	background-color: #eee;
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+.歷年建案container {
+	background-color: #eee;
+	position: relative;
+}
+
+.板橋container {
+	background-color: #707070;
+	position: relative;
+	width: 100%;
+	margin: 1% 0%;
+	height: 600px;
+}
+
+
+.板橋title {
+	font-size: 2.5rem;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	color: #eee;
+	padding-top: 2%;
+	padding-left: 5%;
+	position: relative;
+}
+
+.歷年建案title {
+	font-size: 2.5rem;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	color: #333333;
+	padding-top: 2%;
+	padding-left: 5%;
+}
+
+
+.area-underline {
+	border:0;
+    width: 50%;
+    height: 2.5px;
+    margin-left: 2%;
+    margin-top: 1%;
+    background: #333333;
+    box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
+}
+
+.district-underline {
+	border:0;
+    width: 50%;
+    height: 2.5px;
+    margin-left: 2%;
+    margin-top: 1%;
+    background: #eee;
+    box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
+}
+
+.介紹-underline {
+	border:0;
+    width: 50%;
+    height: 2.5px;
+    margin-left: 2%;
+    margin-top: 1%;
+    background: #ffff99;
+    box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
+}
+
+.btn-group-vertical {
+	margin: 4% 4%;
+	position: absolute;
+}
+
+.btn-outline-secondary {
+	border: 2px solid #6c757d;
+	color: #6c757d;
+	font-weight: 500;
+	font-family: Microsoft JhengHei;
+}
+
+.btn-outline-secondary:hover {
+	background-color: #002080;
+	border: 2px solid #002080;
+	color: #fff;
+	transition: 0.7s ease-in-out;
+	font-weight: 500;
+	font-family: Microsoft JhengHei;
+}
+
+#板橋立體 {
+	height: 350px;
+	width: 450px;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.國鼎 {
+	height: 180px;
+	width: 140px;
+	z-index: 0;
+	margin-top: 16.5%;
+	margin-left: 50%;
+	position: relative;
+}
+
+.國鼎變大 {
+	height: 250px;
+	width: 170px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+}
+
+.公園大鎮 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17.5%;
+	position: relative;
+}
+
+.公園大鎮變大 {
+	height: 270px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+
+}
+
+.民權建築 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17.5%;
+	position: relative;
+
+}
+
+.民權建築變大 {
+	height: 270px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+}
+
+.公園世紀 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17.5%;
+	position: relative;
+}
+
+.公園世紀變大 {
+	height: 260px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 12%;
+	position: relative;
+
+}
+
+.國鼎圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 60%;
+	top: 20%;
+	position: absolute;
+}
+
+.公園大鎮圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 52%;
+	top: 20%;
+	position: absolute;
+}
+
+.民權建築圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 65%;
+	top: 30%;
+	position: absolute;
+}
+
+.公園世紀圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 63%;
+	top: 40%;
+	position: absolute;
+}
+
+#中和立體 {
+	height: 350px;
+	width: 450px;
+	margin-left: 15%;
+	margin-top: 3%;
+	position: absolute;
+
+}
+
+.中和1 {
+	height: 180px;
+	width: 140px;
+	z-index: 0;
+	margin-top: 16%;
+	margin-left: 50%;
+	position: relative;
+}
+
+.中和1變大 {
+	height: 250px;
+	width: 170px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+}
+
+.中和2 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17.5%;
+	position: relative;
+
+}
+
+.中和2變大 {
+	height: 270px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+
+}
+
+.中和3 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17.5%;
+	position: relative;
+
+}
+
+.中和3變大 {
+	height: 270px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+}
+
+.中和4 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17.5%;
+	position: relative;
+}
+
+.中和4變大 {
+	height: 260px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11.8%;
+	position: relative;
+
+}
+
+.中和1圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 65%;
+	top: 25%;
+	position: absolute;
+}
+
+.中和2圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 70%;
+	top: 30%;
+	position: absolute;
+}
+
+.中和3圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 75%;
+	top: 25%;
+	position: absolute;
+}
+
+.中和4圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 65%;
+	top: 40%;
+	position: absolute;
+}
+
+#土城立體 {
+	height: 350px;
+	width: 450px;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.土城1 {
+	height: 180px;
+	width: 140px;
+	z-index: 0;
+	margin-top: 16%;
+	margin-left: 50%;
+	position: relative;
+}
+
+.土城1變大 {
+	height: 250px;
+	width: 170px;
+	z-index: 0;
+	margin-top: 11.5%;
+	position: relative;
+}
+
+.土城2 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17%;
+	position: relative;
+}
+
+.土城2變大 {
+	height: 270px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+}
+
+.土城3 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17%;
+	position: relative;
+}
+
+.土城3變大 {
+	height: 270px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+}
+
+.土城4 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17%;
+	position: relative;
+}
+
+.土城4變大 {
+	height: 260px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 12%;
+	position: relative;
+}
+
+.土城1圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 65%;
+	top: 25%;
+	position: absolute;
+}
+
+.土城2圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 58%;
+	top: 25%;
+	position: absolute;
+}
+
+.土城3圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 55%;
+	top: 30%;
+	position: absolute;
+}
+
+.土城4圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 75%;
+	top: 45%;
+	position: absolute;
+}
+
+#新莊立體 {
+	height: 350px;
+	width: 450px;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.新莊1 {
+	height: 180px;
+	width: 140px;
+	z-index: 0;
+	margin-top: 16%;
+	margin-left: 50%;
+	position: relative;
+}
+
+.新莊1變大 {
+	height: 250px;
+	width: 170px;
+	z-index: 0;
+	margin-top: 11.5%;
+	position: relative;
+}
+
+.新莊2 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17%;
+	position: relative;
+}
+
+.新莊2變大 {
+	height: 270px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+
+}
+
+.新莊3 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17%;
+	position: relative;
+}
+
+.新莊3變大 {
+	height: 270px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 11%;
+	position: relative;
+}
+
+.新莊4 {
+	height: 180px;
+	width: 120px;
+	z-index: 0;
+	margin-top: 17%;
+	position: relative;
+}
+
+.新莊4變大 {
+	height: 260px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 12%;
+	position: relative;
+}
+
+.新莊1圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 55%;
+	top: 30%;
+	position: absolute;
+}
+
+.新莊2圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 50%;
+	top: 20%;
+	position: absolute;
+}
+
+.新莊3圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 60%;
+	top: 40%;
+	position: absolute;
+}
+
+.新莊4圖釘 {
+	height: 50px;
+	width: 35px;
+	right: 70%;
+	top: 45%;
+	position: absolute;
+}
+
+#baniqaoHouses {
+	display: none;
+}
+
+#tuchengHouses {
+	display: none;
+}
+
+#chunghoHouses {
+	display: none;
+}
+
+#xinzhuangHouses {
+	display: none;
+}
+
+.btn-success {
+	border: 2px solid #eee;
+	font-weight: 500;
+	color: #eee;
+	background-color: #707070;
+	font-family: Microsoft JhengHei;
+}
+
+.btn-success:hover {
+	font-weight: 500;
+	border: 2px solid #eee;
+	color: #707070;
+	background-color: #eee;
+	transition: 0.7s ease-in-out;
+	font-family: Microsoft JhengHei;
+}
+
+.btn-success-1 {
+	border: 5px solid #404040;
+	background-color: #fff;
+	color: #404040;
+	font-weight: 800;
+}
+
+.板橋content {
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+.介紹 {
+	margin-left: 2%;
+	color: #ffff99;
+	font-size: 1.3rem;
+	font-weight: 700;
+	font-family: Microsoft JhengHei;
+}
+
+.介紹內容 {
+	margin-left: 2%;
+	margin-top: 2%;
+	color: #eee;
+	font-family: Microsoft JhengHei;
+}
+
+.介紹國鼎建築 {
+	height: 450px;
+	width: 270px;
+	position: relative;
+}
+
+.arrow {
+	margin-top: 180%;
+	color: #ddd;
+}
+
+.新莊content {
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+.新莊container {
+	background-color: #707070;
+	position: relative;
+	width: 100%;
+	margin: 1% 0%;
+	height: 600px;
+}
+
+
+.新莊title {
+	font-size: 2.5rem;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	color: #eee;
+	padding-top: 2%;
+	padding-left: 5%;
+	position: relative;
+}
+
+.土城content {
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+.土城container {
+	background-color: #707070;
+	position: relative;
+	width: 100%;
+	margin: 1% 0%;
+	height: 600px;
+}
+
+
+.土城title {
+	font-size: 2.5rem;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	color: #eee;
+	padding-top: 2%;
+	padding-left: 5%;
+	position: relative;
+}
+
+.中和content {
+	margin-top: 3%;
+	margin-left: 2%;
+}
+
+.中和container {
+	background-color: #707070;
+	position: relative;
+	width: 100%;
+	margin: 1% 0%;
+	height: 600px;
+}
+
+
+.中和title {
+	font-size: 2.5rem;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	color: #eee;
+	padding-top: 2%;
+	padding-left: 5%;
+	position: relative;
+}

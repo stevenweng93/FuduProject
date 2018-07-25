@@ -1,0 +1,140 @@
+.服務-banner {
+	background-image: url('新大觀外觀.jpg');
+	height: calc(100vh);
+	background-size: cover;
+	background-position: 0% 90%;
+	background-attachment: fixed;
+}
+
+
+.服務內容標題 {
+	position: absolute;
+	z-index: 1;
+	font-family: Microsoft JhengHei;
+	font-size: 3.7rem;
+	font-weight: 800;
+	color: #fff;
+	margin-top: 370px;
+	text-shadow: 0px 2px 3px #eee;
+	padding: 10px 100px;
+	background-color: rgba(89,89,89,0.7);
+}
+
+.塔吊 {
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+
+.area-underline {
+	border:0;
+    width: 50%;
+    height: 2.5px;
+    margin-left: 2%;
+    margin-top: 1%;
+    background: #333333;
+    box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
+}
+
+.jumbotron {
+	height: 390px;
+	background-color: #fff;
+}
+
+.logoonly {
+	width: 6%;
+	margin-top: 3%;
+	margin-left: 1.5%;
+}
+
+.避風港 {
+	font-family: Microsoft JhengHei;
+	font-size: 1.1rem;
+	font-weight: 600;
+	padding-left: 5%;
+}
+
+.by馥都 {
+	padding-left: 15px;
+	font-size: 1rem;
+	font-weight: 500;
+
+}
+
+.公司服務 {
+	text-decoration: underline;
+}
+
+.工程團隊 {
+/*	float: right;*/
+	width: 60%;
+	margin-left: 20%;
+	border: 1px solid #ccc;
+}
+
+.內容1 {
+	background-color: #eee;
+	height: 500px;
+}
+
+.公司介紹 {
+	font-size: 1.2rem;
+	font-weight: 800;
+	font-family: Microsoft JhengHei;
+	padding-left: 5%;
+}
+
+.服務內容 {
+	font-size: 2.5rem;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	color: #333333;
+	padding-top: 3%;
+	padding-left: 5%;
+}
+
+.服務內容title {
+	margin-top: 30px;
+	margin-left: 30px;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+
+}
+
+.土地開發介紹 {
+	margin-top: 30px;
+	margin-left: 30px;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	position: absolute;
+	opacity: 1;
+}
+
+.土地開發圖片 {
+	width: 390px;
+	margin-left: 800px;
+	opacity: 0.9;
+	position: absolute;
+	opacity: 1;
+}
+
+
+.建築營造介紹 {
+	margin-top: 30px;
+	margin-left: 30px;
+	position: absolute;
+	font-family: Microsoft JhengHei;
+	font-weight: 800;
+	opacity: 0;
+}
+
+.建築營造圖片 {
+	width: 390px;
+	height: 265px;
+	margin-left: 800px;
+	opacity: 0.9;
+	position: absolute;
+	opacity: 0;
+}
+
+
