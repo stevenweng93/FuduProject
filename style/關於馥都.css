@@ -1,5 +1,5 @@
 .關於-banner {
-	background-image: url('/img/臻園外觀-2.jpg');
+	background-image: url('../img/臻園外觀-2.jpg');
 	height: calc(100vh);
 	background-size: cover;
 	background-position: 0% 100%;
