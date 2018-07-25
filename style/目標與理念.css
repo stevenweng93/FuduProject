@@ -1,6 +1,6 @@
 
 .目標與理念-banner {
-	background-image: url('百暉首璽外觀1.jpg');
+	background-image: url('/img/百暉首璽外觀1.jpg');
 	height: calc(100vh);
 	background-size: cover;
 	background-position: 0% 100%;
@@ -194,4 +194,3 @@
 	opacity: 0;
 	transition: 0.7s ease-in-out;
 }
-
