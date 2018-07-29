@@ -43,4 +43,13 @@ $("#xinzhuang").hover(function(){
 
 });
 
-
+$(window).scroll(function() {
+        scrollPosition = $(window).scrollTop();
+        if(scrollPosition >= 80) {
+          // change lower navbar to fixed
+          $('.demo').addClass("arrow-none");
+        } else {
+          // change lower navbar to normal
+          $('.demo').removeClass("arrow-none");
+        }
+      })

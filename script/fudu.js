@@ -22,23 +22,13 @@ $(".item").mouseout(function() {
 })
 };
 
-// if($(window).width() > 768) {
-// $(".item").mouseover(function() {
-// 	var thisId = $(this).attr("id") + "-content";
-// 	var thisArea = $(this).attr("id") + "-area";
-// 	var thisCol = $(this).attr("id") + "-col";
-//         $(this).stop(true,true).addClass("col-sm-4 opacity-use");
-//         $("#"+thisCol).stop(true,true).addClass("col-sm-4");
-//         $(".item").not(this).stop(true,true).css({"opacity": "1"});
-//         $("#"+thisId).css({"opacity": "1"});
-//         $("#"+thisArea).css({"opacity": "0"});
-//         // $(".s_intro:not(#"+thisId+")").css({"opacity": "0"});
-//         // $(".title:not(#"+thisArea+")").css({"opacity": "1"});
-//     });
-// $(".item").mouseout(function() {
-//         $(".item").stop(true,true).removeClass("col-sm-4 opacity-use");
-// 		$(".s_intro").stop(true, true).css({"opacity":"0"});
-// 		$(".title").css({"opacity": "1"});
-// 		$(".all-item").stop(true,true).addClass("opacity-use");
-// 	});
-// };
+$(window).scroll(function() {
+        scrollPosition = $(window).scrollTop();
+        if(scrollPosition >= 80) {
+          // change lower navbar to fixed
+          $('.demo').addClass("arrow-none");
+        } else {
+          // change lower navbar to normal
+          $('.demo').removeClass("arrow-none");
+        }
+      })

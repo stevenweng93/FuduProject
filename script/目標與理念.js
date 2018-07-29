@@ -21,3 +21,13 @@ $(".目標與理念按鈕").mouseout(function() {
     $(".照片:not(#"+thisPicture+")").css({"opacity": "0"});
 });
 
+$(window).scroll(function() {
+        scrollPosition = $(window).scrollTop();
+        if(scrollPosition >= 80) {
+          // change lower navbar to fixed
+          $('.demo').addClass("arrow-none");
+        } else {
+          // change lower navbar to normal
+          $('.demo').removeClass("arrow-none");
+        }
+      })
