@@ -179,7 +179,74 @@ a:hover {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+  * {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
 
+@media only screen and (max-width: 812px) and (orientation: portrait) {
+  //imgtest
+  .imgblock {
+    margin-bottom: 50px;
+    .第一排照片 {
+      margin: 0 10px;
+      .第一個照片 {
+        border-radius: 5px;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 15px;
+        box-shadow: none;
+        height: 450px;
+      }
+      .第二個照片 {
+        border-radius: 5px;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 15px;
+        box-shadow: none;
+        height: 450px;
+      }
+    }
+    .第二排照片 {
+      height: 350px;
+      margin: 0 10px;
+      .其他照片 {
+        border-radius: 5px;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 15px;
+        box-shadow: none;
+        }
+      .第三個照片 {
+        border-radius: 5px;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 15px;
+        box-shadow: none;
+      }
+    }
+    .第三排照片 {
+      height: 350px;
+      margin: 0 10px;
+      .其他照片 {
+        border-radius: 5px;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 15px;
+        box-shadow: none;
+        }
+      .第四個照片 {
+        border-radius: 5px;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 15px;
+        box-shadow: none;
+      }
+    }
+  }
+}
 
 @media only screen
   and (max-device-width: 812px)
@@ -194,12 +261,13 @@ a:hover {
       	position: absolute;
       	z-index: 1;
       	font-family: Microsoft JhengHei;
-      	font-size: 3.5rem;
+      	font-size: 3rem;
       	font-weight: 800;
       	color: #fff;
-      	top: 100px;
+      	top: 30vh;
         margin-top: 0;
       	text-shadow: 0px 2px 3px #eee;
+        text-align: center;
       	padding: 20px 45px;
       	background-color: rgba(89,89,89,0.7);
       }
@@ -260,7 +328,4 @@ a:hover {
           margin: 0;
       }
     }
-
-
-
-}
+ }
