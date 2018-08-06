@@ -10,38 +10,32 @@ $(".圖釘").mouseout(function() {
 	$("."+thisId).removeClass(addClass);
 });
 
-
-
 // Area Changes
-
-$("#banqiao").hover(function(){
-	$("#banqiaoHouses").fadeIn(300);
-	$("#chunghoHouses").fadeOut(0);
-	$("#tuchengHouses").fadeOut(0);
-	$("#xinzhuangHouses").fadeOut(0);
+$(".areaButton").mouseover(function() {
+	var thisMap = $(this).attr("id") + "Map";
+	var thisHouses = $(this).attr("id") + "Houses";
+	$("#banqiao").removeClass("hoverEffect");
+	$("#"+thisHouses).css({"display": "block"});
+	$(".housesHover:not(#"+thisHouses+")").css({"display": "none"});
+	$("#"+thisMap).css({"display": "block"});
+	$(".areaHover:not(#"+thisMap+")").css({"display": "none"});
+});
+$(".areaButton").mouseout(function() {
+	var thisMap = $(this).attr("id") + "Map";
+	var thisHouses = $(this).attr("id") + "Houses";
+	$("#"+thisHouses).css({"display": "block"});
+	$("#"+thisMap).css({"display": "block"});
 });
 
-$("#chungho").hover(function(){
-	$("#banqiaoHouses").fadeOut(0);
-	$("#chunghoHouses").fadeIn(300);
-	$("#tuchengHouses").fadeOut(0);
-	$("#xinzhuangHouses").fadeOut(0);
+//mobile areaIntro
+$(".areaButtonMobile").click(function() {
+	var thisArea = $(this).attr("id") + "介紹";
+	$("."+thisArea).show();
+	$(".板橋container:not(."+thisArea+")").hide();
 });
 
-$("#tucheng").hover(function(){
-	$("#banqiaoHouses").fadeOut(0);
-	$("#chunghoHouses").fadeOut(0);
-	$("#tuchengHouses").fadeIn(300);
-	$("#xinzhuangHouses").fadeOut(0);
-});
 
-$("#xinzhuang").hover(function(){
-	$("#banqiaoHouses").fadeOut(0);
-	$("#chunghoHouses").fadeOut(0);
-	$("#tuchengHouses").fadeOut(0);
-	$("#xinzhuangHouses").fadeIn(300);
 
-});
 
 $(window).scroll(function() {
         scrollPosition = $(window).scrollTop();

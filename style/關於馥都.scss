@@ -15,6 +15,7 @@
   	text-shadow: 0px 2px 3px #eee;
   	padding: 10px 100px;
   	background-color: rgba(89,89,89,0.7);
+		text-align: center;
   }
 }
 
@@ -205,15 +206,48 @@ a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 812px) and (orientation: landscape) {
-  * {
-    font-size: 0.7rem;
-    text-align: center;
+.聯絡我們top {
+	height: 350px;
+  .office百鈜空拍, .office川暉空拍, .office馥都空拍 {
+  	height: 350px;
+  	width: 100%;
+  	opacity: 0.7;
+  	position: absolute;
+  }
+  .office百鈜Name, .office川暉Name, .office馥都Name {
+  	position: relative;
+  	margin-top: 20%;
+  	margin-bottom: 0%;
+  	text-align: center;
+  	color: #fff;
+  	font-size: 2.5rem;
+  	font-weight: 800;
+  	font-family: Microsoft JhengHei;
   }
 }
 
-@media only screen and (max-width: 812px) and (orientation: portrait) {
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+  * {
+    font-size: 1rem;
+  }
 
+  .相片集錦 {
+    min-height: 700px !important;
+    .office百鈜Name, .office川暉Name {
+     font-size: 3.5rem !important;
+    }
+  }
+}
+
+//ipad
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+  {
+		.table-bar-container {
+			display: block !important;
+		}
 }
 
 @media only screen
@@ -229,7 +263,7 @@ a:hover {
       	position: absolute;
       	z-index: 1;
       	font-family: Microsoft JhengHei;
-      	font-size: 3rem;
+      	font-size: 2.9rem;
       	font-weight: 800;
       	color: #fff;
       	top: 30vh;
@@ -326,7 +360,7 @@ a:hover {
 
       .第二排照片 {
         margin: 0;
-        min-height: 800px;
+        min-height: 700px;
         .其他照片 {
           border-radius: 5px;
           min-height: 100%;
@@ -334,22 +368,45 @@ a:hover {
         }
         .第三個照片 {
           border-radius: 5px;
-          max-height: 70%;
+          min-height: 100%;
           box-shadow: none;
       }
     }
       .第三排照片 {
         margin: 0;
+        min-height: 600px;
         .其他照片 {
           border-radius: 5px;
-          min-height: 400px;
+          min-height: 100%;
           box-shadow: none;
         }
         .第四個照片 {
           border-radius: 5px;
-          min-height: 400px;
+          min-height: 100%;;
           box-shadow: none;
       }
     }
    }
+
+   .相片集錦 {
+     min-height: 700px;
+   .聯絡我們top {
+   	height: 350px;
+     .office百鈜空拍, .office川暉空拍 {
+     	height: 350px;
+     	width: 100%;
+     	opacity: 0.7;
+     	position: relative;
+     }
+     .office百鈜Name, .office川暉Name {
+     	position: absolute;
+      width: 100%;
+      bottom: 50%;
+     	color: #fff;
+     	font-size: 2.5rem;
+     	font-weight: 800;
+     	font-family: Microsoft JhengHei;
+     }
+   }
+ }
  }

@@ -37,7 +37,7 @@
   </div>
 </nav>
 
-<div class="table-bar-container d-lg-block d-none">
+<div class="table-bar-container d-md-block d-none">
 	<div class="btn-group" role="group" aria-label="Basic example">
   		<button type="button" class="btn tableBar leftBar">
   			<a class="leftbarColor" href="/歷年建案"><i class="fas fa-building" style="font-size: 1.3em	"></i> 最新建案</a>
@@ -47,7 +47,8 @@
   		</button>
 	</div>
 </div>
-<div class="navbar-margin"></div>
+
+
 <div class="container-fluid 歷年-banner">
 	<div class="row">
 		<div class="col-sm-5 歷年建案標題">歷年建案</div>
@@ -58,109 +59,153 @@
 </div>
 
 
-<div class="歷年建案container">
-	<div class="歷年建案title">歷年建案</div>
-	<div class="area-underline"></div>
-</div>
 
-<div class="area-container">
-	<div class="btn-group-vertical btn-group-lg" role="group" aria-label="Basic example">
-	  <button type="button" id="banqiao" class="btn btn-outline-secondary">板橋</button>
-	  <button type="button" id="xinzhuang" class="btn btn-outline-secondary">新莊</button>
-	  <button type="button" id="wugu" class="btn btn-outline-secondary">五股</button>
-	  <button type="button" id="tucheng" class="btn btn-outline-secondary">土城</button>
-	  <button type="button" id="muza" class="btn btn-outline-secondary">木柵</button>
-	  <button type="button" id="chungho" class="btn btn-outline-secondary">中和</button>
+
+<div class="container-fluid wholeArea">
+	<div class="歷年建案container">
+		<div class="歷年建案title">歷年建案</div>
+		<div class="area-underline"></div>
 	</div>
-		<div id="banqiaoHouses">
-			<img id="板橋立體" src="/img/板橋立體.png">
-			<a href="#"><img id="國鼎" class="國鼎 圖釘" src="/img/百鈜立面圖.png"></a>
-			<a href="#"><img id="公園大鎮" class="公園大鎮 圖釘" src="/img/testing.png"></a>
-			<a href="#"><img id="民權建築" class="民權建築 圖釘" src="/img/testing1.png"></a>
-			<a href="#"><img id="公園世紀" class="公園世紀 圖釘" src="/img/testing2.png"></a>
-			<a id="國鼎" class="圖釘" href="#"><img class="國鼎圖釘" src="/img/pin.png"></a>
-			<a id="公園大鎮" class="圖釘" href="#"><img class="公園大鎮圖釘" src="/img/pin.png"></a>
-			<a id="民權建築" class="圖釘" href="#"><img class="民權建築圖釘" src="/img/pin.png"></a>
-			<a id="公園世紀" class="圖釘" href="#"><img class="公園世紀圖釘" src="/img/pin.png"></a>
+	<div class="row m-0">
+		<div class="col-lg-1">
+			<div class="btn-group-vertical btn-group-lg" role="group" aria-label="Basic example">
+			  <button type="button" id="banqiao" class="btn btn-outline-secondary areaButton hoverEffect">板橋</button>
+			  <button type="button" id="xinzhuang" class="btn btn-outline-secondary areaButton">新莊</button>
+			  <button type="button" id="wugu" class="btn btn-outline-secondary areaButton">五股</button>
+			  <button type="button" id="tucheng" class="btn btn-outline-secondary areaButton">土城</button>
+			  <button type="button" id="muza" class="btn btn-outline-secondary areaButton">木柵</button>
+			  <button type="button" id="chungho" class="btn btn-outline-secondary areaButton">中和</button>
+			</div>
+	 </div>
+		<div class="col-lg-5">
+			<div id="banqiaoMap" class="areaHover">
+				<img id="板橋立體" src="/img/板橋立體.png">
+				<a id="國鼎" class="圖釘" href="#"><img class="國鼎圖釘" src="/img/pin.png"></a>
+				<a id="公園大鎮" class="圖釘" href="#"><img class="公園大鎮圖釘" src="/img/pin.png"></a>
+				<a id="民權建築" class="圖釘" href="#"><img class="民權建築圖釘" src="/img/pin.png"></a>
+				<a id="公園世紀" class="圖釘" href="#"><img class="公園世紀圖釘" src="/img/pin.png"></a>
+			</div>
+			<div id="wuguMap" class="areaHover">
+				<img id="五股立體" src="/img/新莊川暉工地地圖.png">
+				<a id="五股1" class="圖釘" href="#"><img class="五股1圖釘" src="/img/pin.png"></a>
+				<a id="五股2" class="圖釘" href="#"><img class="五股2圖釘" src="/img/pin.png"></a>
+				<a id="五股3" class="圖釘" href="#"><img class="五股3圖釘" src="/img/pin.png"></a>
+				<a id="五股4" class="圖釘" href="#"><img class="五股4圖釘" src="/img/pin.png"></a>
+			</div>
+			<div id="muzaMap" class="areaHover">
+				<img id="木柵立體" src="/img/新莊百鈜工地地圖.png">
+				<a id="木柵1" class="圖釘" href="#"><img class="木柵1圖釘" src="/img/pin.png"></a>
+				<a id="木柵2" class="圖釘" href="#"><img class="木柵2圖釘" src="/img/pin.png"></a>
+				<a id="木柵3" class="圖釘" href="#"><img class="木柵3圖釘" src="/img/pin.png"></a>
+				<a id="木柵4" class="圖釘" href="#"><img class="木柵4圖釘" src="/img/pin.png"></a>
+			</div>
+			<div id="chunghoMap" class="areaHover">
+				<img id="中和立體" src="/img/中和立體.png">
+				<a id="中和1" class="圖釘" href="#"><img class="中和1圖釘" src="/img/pin.png"></a>
+				<a id="中和2" class="圖釘" href="#"><img class="中和2圖釘" src="/img/pin.png"></a>
+				<a id="中和3" class="圖釘" href="#"><img class="中和3圖釘" src="/img/pin.png"></a>
+				<a id="中和4" class="圖釘" href="#"><img class="中和4圖釘" src="/img/pin.png"></a>
+			</div>
+			<div id="tuchengMap" class="areaHover">
+				<img id="土城立體" src="/img/土城立體.png">
+				<a id="土城1" class="圖釘" href="#"><img class="土城1圖釘" src="/img/pin.png"></a>
+				<a id="土城2" class="圖釘" href="#"><img class="土城2圖釘" src="/img/pin.png"></a>
+				<a id="土城3" class="圖釘" href="#"><img class="土城3圖釘" src="/img/pin.png"></a>
+				<a id="土城4" class="圖釘" href="#"><img class="土城4圖釘" src="/img/pin.png"></a>
+			</div>
+			<div id="xinzhuangMap" class="areaHover">
+				<img id="新莊立體" src="/img/新莊立體.png">
+				<a id="新莊1" class="圖釘" href="#"><img class="新莊1圖釘" src="/img/pin.png"></a>
+				<a id="新莊2" class="圖釘" href="#"><img class="新莊2圖釘" src="/img/pin.png"></a>
+				<a id="新莊3" class="圖釘" href="#"><img class="新莊3圖釘" src="/img/pin.png"></a>
+				<a id="新莊4" class="圖釘" href="#"><img class="新莊4圖釘" src="/img/pin.png"></a>
+			</div>
 		</div>
-		<div id="chunghoHouses">
-			<img id="中和立體" src="/img/中和立體.png">
-			<a href="#"><img id="中和1" class="中和1 圖釘" src="/img/百鈜立面圖.png"></a>
-			<a href="#"><img id="中和2" class="中和2 圖釘" src="/img/testing.png"></a>
-			<a href="#"><img id="中和3" class="中和3 圖釘" src="/img/testing1.png"></a>
-			<a href="#"><img id="中和4" class="中和4 圖釘" src="/img/testing2.png"></a>
-			<a id="中和1" class="圖釘" href="#"><img class="中和1圖釘" src="/img/pin.png"></a>
-			<a id="中和2" class="圖釘" href="#"><img class="中和2圖釘" src="/img/pin.png"></a>
-			<a id="中和3" class="圖釘" href="#"><img class="中和3圖釘" src="/img/pin.png"></a>
-			<a id="中和4" class="圖釘" href="#"><img class="中和4圖釘" src="/img/pin.png"></a>
+		<div class="col-lg-6">
+			 <div id="banqiaoHouses" class="housesHover">
+				 <a href="#"><img id="國鼎" class="國鼎 圖釘" src="/img/百鈜立面圖.png"></a>
+	 			 <a href="#"><img id="公園大鎮" class="公園大鎮 圖釘" src="/img/testing.png"></a>
+	 			 <a href="#"><img id="民權建築" class="民權建築 圖釘" src="/img/testing1.png"></a>
+	 			 <a href="#"><img id="公園世紀" class="公園世紀 圖釘" src="/img/testing2.png"></a>
+			 </div>
+			 <div id="wuguHouses" class="housesHover">
+				 <a href="#"><img id="五股1" class="五股1 圖釘" src="/img/百鈜立面圖2.png"></a>
+				 <a href="#"><img id="土城2" class="五股2 圖釘" src="/img/testing.png"></a>
+				 <a href="#"><img id="五股3" class="五股3 圖釘" src="/img/testing1.png"></a>
+				 <a href="#"><img id="五股4" class="五股4 圖釘" src="/img/testing2.png"></a>
+			 </div>
+			 <div id="muzaHouses" class="housesHover">
+				 <a href="#"><img id="木柵1" class="木柵1 圖釘" src="/img/文山名人2.png"></a>
+				 <a href="#"><img id="木柵2" class="木柵2 圖釘" src="/img/testing.png"></a>
+				 <a href="#"><img id="木柵3" class="木柵3 圖釘" src="/img/testing1.png"></a>
+				 <a href="#"><img id="木柵4" class="木柵4 圖釘" src="/img/testing2.png"></a>
+			 </div>
+			 <div id="chunghoHouses" class="housesHover">
+				 <a href="#"><img id="中和1" class="中和1 圖釘" src="/img/首璽.png"></a>
+				 <a href="#"><img id="中和2" class="中和2 圖釘" src="/img/testing.png"></a>
+				 <a href="#"><img id="中和3" class="中和3 圖釘" src="/img/testing1.png"></a>
+				 <a href="#"><img id="中和4" class="中和4 圖釘" src="/img/testing2.png"></a>
+			 </div>
+			 <div id="tuchengHouses" class="housesHover">
+				 <a href="#"><img id="土城1" class="土城1 圖釘" src="/img/國鼎.png"></a>
+				 <a href="#"><img id="土城2" class="土城2 圖釘" src="/img/testing.png"></a>
+				 <a href="#"><img id="土城3" class="土城3 圖釘" src="/img/testing1.png"></a>
+				 <a href="#"><img id="土城4" class="土城4 圖釘" src="/img/testing2.png"></a>
+			 </div>
+			 <div id="xinzhuangHouses" class="housesHover">
+				 <a href="#"><img id="新莊1" class="新莊1 圖釘" src="/img/臻園.png"></a>
+				 <a href="#"><img id="新莊2" class="新莊2 圖釘" src="/img/testing.png"></a>
+				 <a href="#"><img id="新莊3" class="新莊3 圖釘" src="/img/testing1.png"></a>
+				 <a href="#"><img id="新莊4" class="新莊4 圖釘" src="/img/testing2.png"></a>
+			 </div>
 		</div>
-		<div id="tuchengHouses">
-			<img id="土城立體" src="/img/土城立體.png">
-			<a href="#"><img id="土城1" class="土城1 圖釘" src="/img/百鈜立面圖.png"></a>
-			<a href="#"><img id="土城2" class="土城2 圖釘" src="/img/testing.png"></a>
-			<a href="#"><img id="土城3" class="土城3 圖釘" src="/img/testing1.png"></a>
-			<a href="#"><img id="土城4" class="土城4 圖釘" src="/img/testing2.png"></a>
-			<a id="土城1" class="圖釘" href="#"><img class="土城1圖釘" src="/img/pin.png"></a>
-			<a id="土城2" class="圖釘" href="#"><img class="土城2圖釘" src="/img/pin.png"></a>
-			<a id="土城3" class="圖釘" href="#"><img class="土城3圖釘" src="/img/pin.png"></a>
-			<a id="土城4" class="圖釘" href="#"><img class="土城4圖釘" src="/img/pin.png"></a>
-		</div>
-		<div id="xinzhuangHouses">
-			<img id="新莊立體" src="/img/新莊立體.png">
-			<a href="#"><img id="新莊1" class="新莊1 圖釘" src="/img/百鈜立面圖.png"></a>
-			<a href="#"><img id="新莊2" class="新莊2 圖釘" src="/img/testing.png"></a>
-			<a href="#"><img id="新莊3" class="新莊3 圖釘" src="/img/testing1.png"></a>
-			<a href="#"><img id="新莊4" class="新莊4 圖釘" src="/img/testing2.png"></a>
-			<a id="新莊1" class="圖釘" href="#"><img class="新莊1圖釘" src="/img/pin.png"></a>
-			<a id="新莊2" class="圖釘" href="#"><img class="新莊2圖釘" src="/img/pin.png"></a>
-			<a id="新莊3" class="圖釘" href="#"><img class="新莊3圖釘" src="/img/pin.png"></a>
-			<a id="新莊4" class="圖釘" href="#"><img class="新莊4圖釘" src="/img/pin.png"></a>
-		</div>
+	</div>
 </div>
 
 
-<div class="container-fluid p-0 板橋container">
- 	<div class="板橋title">板橋</div>
+
+<div class="container-fluid p-0 板橋container d-none d-lg-block">
+ 	<div class="板橋title">板橋區</div>
 	<div class="district-underline"></div>
-  	<div class="row 板橋content no-gutters">
-    	<div class="col-sm-2">
-     		<div class="btn-group-vertical btn-group-lg" role="group" aria-label="Basic example">
+  	<div class="row 板橋content no-gutters m-0">
+    	<div class="col-lg-2">
+     		<div class="btn-group-vertical btn-group-lg banqiaoButton" role="group" aria-label="Basic example">
 			  <button type="button" class="btn btn-success">國鼎</button>
 			  <button type="button" class="btn btn-success">公園大鎮</button>
 			  <button type="button" class="btn btn-success">民權建築</button>
 			  <button type="button" class="btn btn-success">公園世紀</button>
-			</div>
+				</div>
     	</div>
-	    <div class="col-sm">
+	    <div class="col-lg banqiaoIntro">
 	    	<div class="介紹">主要特色</div>
 	    	<div class="介紹-underline"></div>
 	    	<div class="介紹內容">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
 	    	<div class="介紹">未來潛力</div>
 	    	<div class="介紹-underline"></div>
-	    	<div class="介紹內容">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，全區面積48﹒2公頃，其中公共設施為29﹒53公頃達61％，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+	    	<div class="介紹內容">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
 	    </div>
-	    <div class="col-sm text-center">
+	    <div class="col-lg text-center">
 	    	<img class="介紹國鼎建築" src="/img/百鈜立面圖.png">
 	    </div>
-	    <div class="col-sm-1">
+	    <div class="col-lg-1">
 	    	<i class="fas fa-arrow-circle-right arrow"></i>
 	    </div>
 	</div>
 </div>
 
-<div class="container-fluid p-0 新莊container">
- 	<div class="新莊title">新莊</div>
+<div class="container-fluid p-0 板橋container d-none d-lg-block">
+ 	<div class="板橋title">新莊區</div>
 	<div class="district-underline"></div>
-  	<div class="row 新莊content no-gutters">
-    	<div class="col-sm-2">
-     		<div class="btn-group-vertical btn-group-lg" role="group" aria-label="Basic example">
+  	<div class="row 板橋content no-gutters m-0">
+    	<div class="col-lg-2">
+     		<div class="btn-group-vertical btn-group-lg banqiaoButton" role="group" aria-label="Basic example">
 			  <button type="button" class="btn btn-success btn-success-1">百鈜</button>
-			  <button type="button" class="btn btn-success btn-success-1">川暉</button>
+			  <button type="button" class="btn btn-success btn-success-2">川暉</button>
 			  <button type="button" class="btn btn-success">翰笙博弈</button>
 			  <button type="button" class="btn btn-success">藤江水岸</button>
 			</div>
     	</div>
-	    <div class="col-sm">
+	    <div class="col-lg banqiaoIntro">
 	    	<div class="介紹">主要特色</div>
 	    	<div class="介紹-underline"></div>
 	    	<div class="介紹內容">政大ㄧ街社區中庭庭院別墅，戶戶單純，住戶素質優，24小時全天候管理。優美舒適的環境讓您彷彿置身在鄉村，不被工作瑣事打擾；有天有地外觀一致，前庭後院的溫馨別墅，面綠地草坪，視野寬敞，蟲鳴鳥叫，近市區卻獨樹一格。</div>
@@ -168,16 +213,16 @@
 	    	<div class="介紹-underline"></div>
 	    	<div class="介紹內容">政大重劃區全區低密度開發，單純住宅區全區無店家無商業行為，留給住戶一個寧靜舒適的生活空間，重劃區保留完整的自然生態是台北市最美麗的後花園﹒。本社區位於政大一街，鄰近政大附中與政治大學，濃厚人文氣質培育出社會優秀的人才。未來捷運政大站通車，交通更加便利，將帶動週邊商機蓬勃發展，房價增值保值潛力無窮。</div>
 	    </div>
-	    <div class="col-sm text-center">
+	    <div class="col-lg text-center">
 	    	<img class="介紹國鼎建築" src="/img/臻園.png">
 	    </div>
-	    <div class="col-sm-1">
+	    <div class="col-lg-1">
 	    	<i class="fas fa-arrow-circle-right arrow"></i>
 	    </div>
 	</div>
 </div>
 
-<div class="container-fluid p-0 土城container">
+<!-- <div class="container-fluid p-0 土城container">
  	<div class="土城title">土城</div>
 	<div class="district-underline"></div>
   	<div class="row 土城content no-gutters">
@@ -204,9 +249,9 @@
 	    	<i class="fas fa-arrow-circle-right arrow"></i>
 	    </div>
 	</div>
-</div>
+</div> -->
 
-<div class="container-fluid p-0 中和container">
+<!-- <div class="container-fluid p-0 中和container">
  	<div class="中和title">中和</div>
 	<div class="district-underline"></div>
   	<div class="row 中和content no-gutters">
@@ -233,9 +278,281 @@
 	    	<i class="fas fa-arrow-circle-right arrow"></i>
 	    </div>
 	</div>
+</div> -->
+
+<div class="container-fluid d-block d-lg-none p-0">
+	<div class="row m-0">
+		<div class="btn-group btn-group-lg" role="group">
+			<button type="button" id="板橋區" class="btn btn-default areaButtonMobile">板橋區</button>
+			<button type="button" id="新莊區" class="btn btn-default areaButtonMobile">新莊區</button>
+			<button type="button" id="文山區" class="btn btn-default areaButtonMobile">文山區</button>
+			<button type="button" id="中和區" class="btn btn-default areaButtonMobile">中和區</button>
+		</div>
+	</div>
 </div>
 
-<footer id="footer">
+<!-- 板橋區介紹內容 -->
+<div id="板橋區介紹" class="container-fluid p-0 板橋container 板橋區介紹 d-block d-lg-none">
+ 	<div class="板橋title">板橋區</div>
+	<div class="district-underline"></div>
+	<img class="banqiao3d" src="/img/板橋馥都地圖.png">
+	<div class="row 板橋content no-gutters m-0">
+		<div class="col-lg-2">
+			<div class="banqiaoIntroAll d-block d-lg-none m-0" role="group" aria-label="Basic example">
+				<div>
+					<div class="banqiao-building-title">國鼎</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">公園大鎮</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">民權建築</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">公園世紀</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+</div>
+
+<!-- 新莊區介紹內容 -->
+<div id="新莊區介紹" class="container-fluid p-0 板橋container 新莊區介紹 d-block d-lg-none">
+ 	<div class="板橋title">新莊區</div>
+	<div class="district-underline"></div>
+	<img class="banqiao3d" src="/img/板橋馥都地圖.png">
+	<div class="row 板橋content no-gutters m-0">
+		<div class="col-lg-2">
+			<div class="banqiaoIntroAll d-block d-lg-none m-0" role="group" aria-label="Basic example">
+				<div>
+					<div class="banqiao-building-title">國鼎</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">公園大鎮</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">民權建築</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">公園世紀</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+</div>
+
+<!-- 文山區介紹內容 -->
+<div id="文山區介紹" class="container-fluid p-0 板橋container 文山區介紹 d-block d-lg-none">
+ 	<div class="板橋title">文山區</div>
+	<div class="district-underline"></div>
+	<img class="banqiao3d" src="/img/板橋馥都地圖.png">
+	<div class="row 板橋content no-gutters m-0">
+		<div class="col-lg-2">
+			<div class="banqiaoIntroAll d-block d-lg-none m-0" role="group" aria-label="Basic example">
+				<div>
+					<div class="banqiao-building-title">國鼎</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">公園大鎮</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">民權建築</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">公園世紀</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+</div>
+
+<!-- 中和區介紹內容 -->
+<div id="中和區介紹" class="container-fluid p-0 板橋container 中和區介紹 d-block d-lg-none">
+ 	<div class="板橋title">中和區</div>
+	<div class="district-underline"></div>
+	<img class="banqiao3d" src="/img/板橋馥都地圖.png">
+	<div class="row 板橋content no-gutters m-0">
+		<div class="col-lg-2">
+			<div class="banqiaoIntroAll d-block d-lg-none m-0" role="group" aria-label="Basic example">
+				<div>
+					<div class="banqiao-building-title">國鼎</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">公園大鎮</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">民權建築</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+				<div>
+					<div class="banqiao-building-title">公園世紀</div>
+					<div class="building-underline m-0"></div>
+					<div class="國鼎介紹">
+						<img class="國鼎圖" src="/img/百鈜立面圖.png" alt="">
+						<div class="介紹mobile">主要特色</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">國鼎總樓高有28層高，地下停車場部分也深達5層樓的高度，全棟結構採SRC，並強調雙制震系統，規劃時已將地震頻繁的台灣地區納入施工設計考量，考慮著住戶的居家安全。位於漢生東路上的國鼎，主打純住宅規劃，總戶數150戶，物件坪數共有56、83與90坪三種格局供選擇。</div>
+						<div class="介紹mobile">未來潛力</div>
+						<div class="介紹-underline"></div>
+						<div class="介紹內容mobile">新板特區以新北市政府為核心，四週分別以漢生東路、文化路、民權路、區運路為界，未來大新板特區不但會有萬坪都會公園、大台北新劇院、國際觀光飯店及大型購物休閒中心，還有台灣獨創，長達2﹒5公里的立體聯通式「天空步道」將整個生活圈串連一體，使所有人能輕鬆分享這個便捷舒適的生活空間</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+</div>
+
+
+<!-- <footer id="footer">
 	<div class="main-footer">
 		<strong class="footer-logo"><a href="/"><img class="logo-size" src="/img/Footer_Logo1.png"></a></strong>
 		<div class="menu-wrapper">
@@ -305,7 +622,7 @@
     		<small class="g-font-size-default g-mr-10 g-mb-10 g-mb-0--md copyright">馥都建設股份有限公司 | 2018 © All Rights Reserved.</small>
   		</div>
 	</div>
-</footer>
+</footer> -->
 
 
 <script type="text/javascript" src="/script/歷年建案.js"></script>

@@ -1,15 +1,12 @@
-$("#土地開發").mouseover(function(){
-	$(".土地開發介紹").css({"opacity": "1", "transition": "1.2s"});
-	$(".土地開發圖片").css({"opacity": "1", "transition": "1.2s"});
-	$(".建築營造介紹").css({"opacity": "0", "transition": "1.2s"});
-	$(".建築營造圖片").css({"opacity": "0", "transition": "1.2s"});
+$(".服務項目hover").mouseover(function() {
+	var thisHover = $(this).attr("id");
+	$("."+thisHover).css({"opacity": "1", "transition": "0.8s ease-in-out"});
+	$(".服務項目:not(."+thisHover+")").css({"opacity": "0", "transition": "0.8s ease-in-out"});
 });
 
-$("#建築營造").mouseover(function(){
-	$(".土地開發介紹").css({"opacity": "0", "transition": "1.2s"});
-	$(".土地開發圖片").css({"opacity": "0", "transition": "1.2s"});
-	$(".建築營造介紹").css({"opacity": "1", "transition": "1.2s"});
-	$(".建築營造圖片").css({"opacity": "1", "transition": "1.2s"});
+$(".服務項目hover").mouseout(function() {
+	var thisHover = $(this).attr("id");
+	$("."+thisHover).css({"opacity": "1"});
 });
 
 $(window).scroll(function() {

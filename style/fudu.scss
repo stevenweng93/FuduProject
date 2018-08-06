@@ -11,7 +11,7 @@ nav {
   }
 
   .navbar-nav {
-    margin-right: 35% !important;
+    margin-right: 40% !important;
   }
 
   .navbar {
@@ -24,7 +24,6 @@ nav {
 
   .nav-item {
     font-size: 1.3rem;
-    // margin-left: 10px;
   }
 }
 
@@ -238,7 +237,14 @@ nav {
     	font-family: Microsoft JhengHei;
     	font-weight: 800;
     	color: #595959;
+      &:hover {
+      	background: #000066;
+      	color: #fff;
+      	border: 1px solid #000066;
+      	transition: 0.8s ease-in-out;
+      	transform: scale(1.05);
     }
+  }
     .fab {
     	font-size: 3.6rem;
     	width: 100%;
