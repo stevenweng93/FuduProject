@@ -666,7 +666,6 @@
 	position: relative;
 	width: 100%;
 	margin: 1% 0%;
-	height: 600px;
 	.板橋title {
 		font-size: 2.5rem;
 		font-family: Microsoft JhengHei;
@@ -751,8 +750,9 @@
 		font-family: Microsoft JhengHei;
 	}
 	.介紹國鼎建築 {
-		height: 450px;
-		width: 270px;
+		height: 430px;
+		width: 250px;
+		margin-top: 10px;
 		position: relative;
 	}
 	.arrow {
@@ -766,6 +766,13 @@
 .banqiaoIntro {
 	margin-top: 30px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -960,13 +967,13 @@ and (-webkit-min-device-pixel-ratio: 2)
 			display: block;
 		}
 		.新莊區介紹 {
-			display: block;
+			display: none !important;
 		}
 		.文山區介紹 {
-			display: block;
+			display: none !important;
 		}
 		.中和區介紹 {
-			display: block;
+			display: none !important;
 		}
 }
 
@@ -1003,30 +1010,7 @@ and (-webkit-min-device-pixel-ratio: 2)
 
 
 
-// .土城content {
-// 	margin-top: 3%;
-// 	margin-left: 2%;
-// }
-//
-// .土城container {
-// 	background-color: #707070;
-// 	position: relative;
-// 	width: 100%;
-// 	margin: 1% 0%;
-// 	height: 600px;
-// }
-//
-//
-// .土城title {
-// 	font-size: 2.5rem;
-// 	font-family: Microsoft JhengHei;
-// 	font-weight: 800;
-// 	color: #eee;
-// 	padding-top: 2%;
-// 	padding-left: 5%;
-// 	position: relative;
-// }
-//
+
 // .中和content {
 // 	margin-top: 3%;
 // 	margin-left: 2%;

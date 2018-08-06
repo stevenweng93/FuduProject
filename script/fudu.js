@@ -32,3 +32,7 @@ $(window).scroll(function() {
           $('.demo').removeClass("arrow-none");
         }
       })
+
+$("navbar-toggler").click(function(){
+	$("table-bar-container").hide();
+});
