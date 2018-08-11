@@ -31,6 +31,6 @@ $(".聯絡我們-left").hover(function() {
 // $(".聯絡我們-left").click(function() {
 // 	var thisAddress = $(this).attr("id") + "-address";
 // 	var thisMap = $(this).attr("id") + "地圖";
-// 	$("."+thisAddress).css({"display": "none"});
-// 	$("."+thisMap).css({"display": "none"});
+// 	$("."+thisAddress).addClass("show");
+// 	$("."+thisMap).addClass("show");
 // });

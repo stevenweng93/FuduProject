@@ -1,0 +1,295 @@
+button:focus {
+	outline: 0;
+	border: 2px solid #d9d9d9;
+}
+
+.聯絡我們top {
+	height: 350px;
+}
+
+
+.office百鈜空拍, .office川暉空拍, .office馥都空拍 {
+	min-height: 350px;
+	width: 100%;
+	opacity: 0.7;
+	position: relative;
+}
+
+.office百鈜Name, .office川暉Name, .office馥都Name {
+	position: absolute;
+  bottom: 190px;
+  left: 90px;
+	text-align: center;
+	color: #fff;
+	font-size: 2.5rem;
+	font-weight: 800;
+	font-family: Microsoft JhengHei;
+}
+
+.office百鈜Number, .office川暉Number, .office馥都Number {
+	position: absolute;
+  bottom: 140px;
+  left: 103px;
+	text-align: center;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 800;
+	font-family: Microsoft JhengHei;
+}
+
+
+.聯絡我們title {
+  position: absolute;
+  z-index: 1;
+  font-family: Microsoft JhengHei;
+  font-size: 3.7rem;
+  font-weight: 800;
+  color: #404040;
+  margin-top: 2%;
+	margin-left: 4.5%;
+  text-shadow: 0px 2px 3px #404040;
+}
+
+.聯絡我們-underline {
+	border:0;
+  width: 40%;
+  height: 2.5px;
+  margin-left: 1%;
+  margin-top: 120px;
+  background: #333333;
+  box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
+}
+.officeContactAll {
+	margin-top: 8%;
+  .officeContact {
+  	list-style-type: none;
+  	background-color: #e6e6e6;
+  	color: #262626;
+  	padding: 15px 150px 15px 10px;
+  	margin-top: 1px;
+  	border: 2px solid #f2f2f2;
+  	font-weight: 800;
+  	font-size: 1.3rem;
+  	font-family: Microsoft JhengHei;
+    &:hover {
+      background-color: #d9d9d9;
+    }
+  }
+  .新莊百鈜工地-address, .新莊川暉工地-address, .板橋馥都-address {
+  	margin-bottom: 3%;
+  	padding-top: 5%;
+  	padding-left: 3%;
+  	font-family: Microsoft JhengHei;
+  	font-weight: 600;
+  	display: none;
+  }
+  .新莊百鈜工地地圖, .新莊川暉工地地圖, .板橋馥都地圖 {
+  	border: 2px solid #b3b3b3;
+  	margin-top: 5%;
+  	margin-bottom: 30px;
+  	height: 350px;
+  	width: 315px !important;
+  	display: none;
+  }
+}
+
+label {
+	margin-top: 2%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 0px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    margin-bottom: 2%;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* Add a background color and some padding around the form */
+.container-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    font-family: Microsoft JhengHei;
+}
+
+form {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 812px) and (orientation: landscape)
+  {
+    .office百鈜Name, .office川暉Name, .office馥都Name {
+      margin-left: 70px;
+      font-size: 4rem !important;
+    }
+    .office百鈜Number, .office川暉Number, .office馥都Number {
+      margin-left: 90px;
+      font-size: 3rem !important;
+    }
+}
+
+
+@media only screen
+  and (max-device-width: 812px)
+  {
+    .新莊百鈜工地-地圖, .新莊川暉工地-地圖, .板橋馥都-地圖 {
+      width: 95% !important;
+      display: block;
+      margin: 20px 0px 30px 9px;
+      box-shadow: 0 0 10px 3px #856046;
+    }
+    .office百鈜Name, .office川暉Name, .office馥都Name {
+      left: 70px;
+    }
+    .office百鈜Number, .office川暉Number, .office馥都Number {
+      left: 80px;
+    }
+    .聯絡我們title {
+      font-size: 3rem;
+    }
+    .聯絡我們-underline {
+      width: 70%;
+      margin-top: 80px;
+    }
+    .officeContact {
+      font-size: 2.3rem !important;
+      padding: 5px 80px 5px 10px !important;
+    }
+    .新莊百鈜工地address, .新莊川暉工地address, .板橋馥都address {
+      padding-top: 5px;
+      padding-left: 10px;
+      font-family: Microsoft JhengHei;
+      font-weight: 600;
+      font-size: 1.5rem;
+      display: block;
+    }
+    form {
+      font-size: 1.5rem;
+      label {
+        font-size: 1.5rem;
+      }
+    }
+}
+//ipad pro portrait
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .office百鈜Name, .office川暉Name, .office馥都Name {
+      left: 300px !important;
+    }
+    .office百鈜Number, .office川暉Number, .office馥都Number {
+      left: 320px !important;
+    }
+    .office百鈜空拍, .office川暉空拍, .office馥都空拍 {
+      min-height: 550px;
+      opacity: 0.7;
+      position: relative;
+    }
+    form {
+      font-size: 2.5rem;
+    }
+}
+
+//ipad
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+  {
+    .office百鈜Name, .office川暉Name, .office馥都Name {
+      left: 290px !important;
+      bottom: 280px;
+      font-size: 4.5rem;
+    }
+    .office百鈜Number, .office川暉Number, .office馥都Number {
+      left: 318px !important;
+      bottom: 210px;
+      font-size: 3.5rem;
+    }
+}
+
+//ipad
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2)
+  {
+    .新莊百鈜工地address, .新莊川暉工地address, .板橋馥都address {
+      padding-top: 5px;
+      padding-left: 10px;
+      font-family: Microsoft JhengHei;
+      font-weight: 600;
+      font-size: 2rem;
+      display: block;
+    }
+    .新莊百鈜工地-地圖, .新莊川暉工地-地圖, .板橋馥都-地圖 {
+      width: calc(92vw) !important;
+      display: block;
+    }
+    .聯絡我們 {
+      margin-left: 30px;
+    }
+    .office百鈜空拍, .office川暉空拍, .office馥都空拍 {
+    	min-height: 550px;
+    	width: calc(100vw);
+    	opacity: 0.7;
+    	position: relative;
+    }
+    .office百鈜Name, .office川暉Name, .office馥都Name {
+      left: 180px;
+      bottom: 280px;
+      font-size: 4.5rem;
+    }
+    .office百鈜Number, .office川暉Number, .office馥都Number {
+      left: 203px;
+      bottom: 210px;
+      font-size: 3.5rem;
+    }
+    .officeContact {
+      font-size: 2.5rem !important;
+      margin-top: 20px !important;
+      padding: 15px 30px 15px 20px !important;
+    }
+    .聯絡我們title {
+      font-size: 4rem !important;
+    }
+    .聯絡我們-underline {
+      margin-top: 120px;
+    }
+    .officeContactAll {
+    	margin-top: 2%;
+    }
+    form {
+      font-size: 2.5rem;
+      label {
+        font-size: 2.5rem;
+      }
+    }
+    .新莊百鈜工地-地圖, .新莊川暉工地-地圖, .板橋馥都-地圖 {
+      width: 100% !important;
+    }
+}

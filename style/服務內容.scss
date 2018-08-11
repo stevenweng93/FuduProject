@@ -17,47 +17,8 @@
   	background-color: rgba(89,89,89,0.7);
 		text-align: center;
   }
-  //scroll arrow
-  .demo a {
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    z-index: 2;
-    display: inline-block;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    color: #fff;
-    font : normal 400 20px/1 'Josefin Sans', sans-serif;
-    letter-spacing: .1em;
-    text-decoration: none;
-    transition: opacity .3s;
-  }
-  .arrow-none {
-    opacity: 0;
-    transition: 0.8s ease-in-out;
-  }
-  #section01 a:hover {
-    opacity: 0.3;
-  }
-  #section01 a {
-    padding-top: 40px;
-    color: #fff;
-    opacity: 0.6;
-  }
-  #section01 a span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 24px;
-    height: 24px;
-    margin-left: -12px;
-    border-left: 5px solid #fff;
-    border-bottom: 5px solid #fff;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    box-sizing: border-box;
-  }
-}
+}	
+
 
   .服務經句 {
     margin: 0;
@@ -86,7 +47,7 @@
     	min-width: 65%;
     	margin-left: 20%;
       margin-top: 10%;
-    	border: 1px solid #ccc;
+			box-shadow:  0 0 10px  rgba(0,0,0,0.6);
     }
   }
 
@@ -150,6 +111,7 @@
 				width: 400px;
 				position: absolute;
 				opacity: 1;
+				box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 			}
 			.建築營造圖片 {
 				margin: 80px 100px;
@@ -157,6 +119,7 @@
 				height: 275px;
 				position: absolute;
 				opacity: 0;
+				box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 			}
 		}
 }
@@ -203,9 +166,6 @@ and (-webkit-min-device-pixel-ratio: 2)
     }
 		.介紹row {
 			height: 300px !important;
-		}
-		.table-bar-container {
-			display: block !important;
 		}
 }
 

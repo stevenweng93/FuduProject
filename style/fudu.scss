@@ -8,19 +8,15 @@ nav {
     padding: 0;
     margin: 0;
   }
-
   .navbar-nav {
     margin-right: 40% !important;
   }
-
   .navbar {
     height: 85.74px;
   }
-
   .logo {
     width: 230px;
   }
-
   .nav-item {
     font-size: 1.3rem;
   }
@@ -28,6 +24,13 @@ nav {
 
 .navbar-margin {
   height: 91.74px;
+}
+
+.table-bar-up {
+  position: fixed;
+	z-index: 11;
+	top: 26px !important;
+	right: 11px;
 }
 
 .table-bar-container {
@@ -40,30 +43,82 @@ nav {
   	border-radius: 0;
   	margin-top: 10px;
   }
-
   .leftBar {
   	background: #ffffff;
   	letter-spacing: 2px;
   	padding: 15px 35px;
   	box-shadow: 0 0 20px 2px hsla(0,0%,64%,.2);
+    .leftbarColor{
+        color: hsla(0,0%,7%,.65);
+        font-family: Microsoft JhengHei;
+    }
   }
-
-  .leftbarColor{
-      color: hsla(0,0%,7%,.65);
-      font-family: Microsoft JhengHei;
-  }
-
-  .rightbarColor {
-  	color: #fff !important;
-  	padding: 0;
-  	font-family: Microsoft JhengHei;
-  }
-
   .rightBar {
-  	background: #0066cc;
-  	letter-spacing: 2px;
-  	padding: 10px 35px;
-  	box-shadow: 0 0 20px 2px hsla(0,0%,64%,.2);
+    background: #0066cc;
+    letter-spacing: 2px;
+    padding: 10px 35px;
+    box-shadow: 0 0 20px 2px hsla(0,0%,64%,.2);
+    .rightbarColor {
+      color: #fff !important;
+      padding: 0;
+      font-family: Microsoft JhengHei;
+    }
+  }
+}
+
+// //video images
+.banner {
+  .banner-image {
+    height: calc(100vh);
+    width: 100%;
+  }
+  #content {
+    font-family: Microsoft JhengHei;
+    text-align: left;
+    color: #eee;
+    text-shadow: 0px 2.5px 3px grey;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+  }
+  .安居樂業 {
+    font-weight: 700;
+    font-size: 3em;
+  }
+  .description1 {
+    font-size: 1.2em;
+  }
+  #h4 {
+    font-size: 1rem;
+  }
+  .content-underline {
+      height: 12px;
+      border: 0;
+      box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
+      margin-right: 0%;
+      margin-top: 10px;
+  }
+  .videoButton {
+    font-size: 1.2em;
+    padding-top: 5px;
+    float: left;
+    #myStory {
+      text-decoration: none;
+    }
+    .myStory {
+      border: 3px solid #eee;
+      padding: 10px 20px;
+      font-size: 15px;
+      color: #eee;
+      &:hover {
+        background-color: #eee;
+        color: #666;
+        font-weight: 900;
+        transition: 0.5s ease-in-out;
+      }
+    }
   }
 }
 
@@ -71,7 +126,7 @@ nav {
 .demo a {
   position: absolute;
   bottom: 0px;
-  left: 50%;
+  left: 47%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -82,24 +137,18 @@ nav {
   text-decoration: none;
   transition: opacity .3s;
 }
-
 .arrow-none {
   opacity: 0;
   transition: 0.8s ease-in-out;
 }
-
 #section01 a:hover {
   opacity: 0.3;
 }
-
-
-
 #section01 a {
   padding-top: 40px;
   color: #fff;
   opacity: 0.6;
 }
-
 #section01 a span {
   position: absolute;
   top: 0;
@@ -114,71 +163,7 @@ nav {
   box-sizing: border-box;
 }
 
-//video images
-.banner {
-  .banner-image {
-    height: calc(100vh);
-    width: 100%;
-  }
-  #content {
-  	font-family: Microsoft JhengHei;
-  	text-align: left;
-  	color: #eee;
-  	text-shadow: 0px 2.5px 3px grey;
-  	position: absolute;
-  	bottom: 0;
-  	left: 10px;
-  	padding-bottom: 50px;
-  	padding-left: 20px;
-
-    .安居樂業 {
-    	font-weight: 700;
-    	font-size: 3em;
-    }
-
-    .description1 {
-    	font-size: 1.2em;
-    }
-
-    #h4 {
-    	font-size: 1rem;
-    }
-
-    .content-underline {
-        height: 12px;
-        border: 0;
-        box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-        margin-right: 0%;
-        margin-top: 10px;
-    }
-
-    .videoButton {
-    	font-size: 1.2em;
-    	padding-top: 5px;
-    	float: left;
-
-      #myStory {
-      	text-decoration: none;
-      }
-
-      .myStory {
-      	border: 3px solid #eee;
-      	padding: 10px 20px;
-      	font-size: 15px;
-      	color: #eee;
-
-        &:hover {
-          background-color: #eee;
-          color: #666;
-          font-weight: 900;
-          transition: 0.5s ease-in-out;
-        }
-      }
-    }
-  }
-}
-
-//area section
+// //area section
 .section2 {
 	height: 570px;
 	position: relative;
@@ -205,436 +190,467 @@ nav {
   }
 }
 
+
 //目標與理念
 .整體目標與理念 {
-	background-color: #404040;
-	height: 530px !important;
-  .目標與理念 {
-  	font-family: Microsoft JhengHei;
-  	color: #fff;
-  	font-size: 3rem;
-  	font-weight: 800;
-  	margin: 0% 5% 1% 5%;
-  	padding-top: 4%;
-  }
-  .目標與理念-underline {
-  	border:0;
-      margin:0;
-      width: 50%;
-      height: 2px;
-      background: #ddd;
-      box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
-  }
-  .目標與理念排 {
-  	padding-top: 4%;
-  	padding-left: 3%;
-    a:hover, a:visited, a:link, a:active
-    {
-        text-decoration: none;
-        color: #404040;
+  	background-color: #404040;
+  	height: 530px !important;
+    .目標與理念 {
+    	font-family: Microsoft JhengHei;
+    	color: #fff;
+    	font-size: 3rem;
+    	font-weight: 800;
+    	margin: 0% 5% 1% 5%;
+    	padding-top: 4%;
     }
-    .目標與理念區 {
-    	background: #f2f2f2;
-    	padding: 1% 4.5% 1% 4.5%;
-    	margin: 1.6% 1%;
+    .目標與理念-underline {
+    	border:0;
+        margin:0;
+        width: 50%;
+        height: 2px;
+        background: #ddd;
+        box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
+    }
+    .目標與理念排 {
+    	padding-top: 4%;
+    	padding-left: 3%;
+      a:hover, a:visited, a:link, a:active
+      {
+          text-decoration: none;
+          color: #404040;
+      }
+      .目標與理念區 {
+      	background: #f2f2f2;
+      	padding: 1% 4.5% 1% 4.5%;
+      	margin: 1.6% 1%;
+      	font-family: Microsoft JhengHei;
+      	font-weight: 800;
+      	color: #595959;
+        &:hover {
+        	background: #000066;
+        	color: #fff;
+        	border: 1px solid #000066;
+        	transition: 0.8s ease-in-out;
+        	transform: scale(1.05);
+      }
+    }
+      .fas {
+        width: 100%;
+        font-size: 3.4rem;
+        padding-bottom: 5px;
+      }
+      .fa-gg {
+        width: 100%;
+        font-size: 3.6rem;
+      }
+      .fa-handshake {
+        width: 100%;
+        font-size: 3.5rem;
+      }
+    }
+  }
+
+  .main-footer {
+  	background-color: black;
+    .footer-logo {
+    	margin-left: 1.5%;
+      .logo-size {
+      	width: 20%;
+      }
+    }
+    .menu-wrapper {
+    	font-size: 1.3rem;
+    .connectUs {
+    	color: #fff;
     	font-family: Microsoft JhengHei;
     	font-weight: 800;
-    	color: #595959;
-      &:hover {
-      	background: #000066;
+    	margin-left: 15%;
+    	font-size: 1.5rem;
+    }
+    .socialmediaIcon {
+    	margin-left: 15%;
+      .fa-facebook {
+      	width: 12%;
+      	display: inline-block;
+      	color: #ddd
+      }
+
+      .fa-instagram {
+      	width: 12%;
+      	display: inline-block;
+      	color: #ddd;
+      }
+
+      .fa-youtube {
+      	width: 12%;
+      	display: inline-block;
+      	color: #ddd;
+      }
+    }
+    .navigation {
+    	list-style-type: none;
+    	color: #fff;
+    	font-family: Microsoft JhengHei;
+    	font-weight: 500;
+        .navigationContent {
       	color: #fff;
-      	border: 1px solid #000066;
-      	transition: 0.8s ease-in-out;
-      	transform: scale(1.05);
+          &.navigationContent:hover {
+          color: #bfbfbf;
+          text-decoration: none;
+        }
+      }
+    }
+    .constructionSite {
+    	list-style-type: none;
+    	color: #fff;
+    	font-family: Microsoft JhengHei;
+    	font-weight: 800;
+      .siteAddress {
+      	font-size: 0.8rem;
+      	color: #ddd;
+      	font-family: Microsoft JhengHei;
+      }
+    }
+    .phoneNumber {
+    	list-style-type: none;
+    	color: #fff;
+    	font-family: Microsoft JhengHei;
+    	font-weight: 800;
+      .number {
+      	font-size: 0.8rem;
+      	color: #ddd;
+      	font-family: Microsoft JhengHei;
+      }
+    }
+    .officeHour {
+    	list-style-type: none;
+    	color: #fff;
+    	font-family: Microsoft JhengHei;
+    	font-weight: 800;
+      .time {
+      	font-size: 0.8rem;
+      	color: #ddd;
+      	font-family: Microsoft JhengHei;
+      }
+    }
+    }
+    .footer-underline {
+        height: 5px;
+        border: 0;
+        box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
+    }
+    .copyright {
+    	color: #fff;
+    	font-size: 1rem;
     }
   }
-    .fab {
-    	font-size: 3.6rem;
-    	width: 100%;
-    }
-
-    .far {
-    	font-size: 3.5rem;
-    	width: 100%;
-    }
 
 
-    .fas {
-    	width: 20%;
-    	font-size: 3.4rem;
-    	padding-bottom: 5px;
-    }
 
-    .fa-users {
-    	width: 100%;
-    }
 
-    .fa-leaf {
-    	width: 100%;
-    }
-
-    .fa-gg {
-    	width: 100%;
-    }
-
-    .fa-handshake {
-    	width: 100%;
-    }
-
-    .fa-thumbs-up {
-    	width: 100%;
-    }
-
-    .fa-people-carry {
-    	width: 100%;
-    }
-
-    .fa-hand-holding-heart {
-    	width: 100%;
-    }
-
-    .fa-home {
-    	width: 100%;
-    }
-  }
-}
-
-//footer
-.main-footer {
-	background-color: black;
+@media only screen and (max-width: 812px) and (orientation: landscape) {
   .footer-logo {
-  	margin-left: 1.5%;
+    margin-left: 1.5%;
     .logo-size {
-    	width: 20%;
+      width: 30% !important;
     }
   }
-  .menu-wrapper {
-  	font-size: 1.3rem;
   .connectUs {
-  	color: #fff;
-  	font-family: Microsoft JhengHei;
-  	font-weight: 800;
-  	margin-left: 15%;
-  	font-size: 1.5rem;
+    margin-left: 15% !important;
+  }
+  .area-bg {
+    height: calc(70vh) !important;
+  }
+  .地區mobile {
+    left: 80px !important;
+  }
+  .特色瀏覽 {
+    margin-left: 75% !important;
   }
   .socialmediaIcon {
-  	margin-left: 15%;
-  	margin-top: 7%;
-  	margin-bottom: 7%;
+    margin-left: 8% !important;
     .fa-facebook {
-    	width: 12%;
-    	display: inline-block;
-    	color: #ddd
+      padding: 0px 13px;
     }
-
     .fa-instagram {
-    	width: 12%;
-    	display: inline-block;
-    	color: #ddd;
+      padding: 0px 13px;
     }
-
     .fa-youtube {
-    	width: 12%;
-    	display: inline-block;
-    	color: #ddd;
+      padding: 0px 13px;
     }
-  }
-  .navigation {
-  	list-style-type: none;
-  	color: #fff;
-  	font-family: Microsoft JhengHei;
-  	font-weight: 500;
-      .navigationContent {
-    	color: #fff;
-        &.navigationContent:hover {
-        color: #bfbfbf;
-        text-decoration: none;
-      }
-    }
-  }
-  .constructionSite {
-  	list-style-type: none;
-  	color: #fff;
-  	font-family: Microsoft JhengHei;
-  	font-weight: 800;
-    .siteAddress {
-    	font-size: 0.8rem;
-    	color: #ddd;
-    	font-family: Microsoft JhengHei;
-    }
-  }
-  .phoneNumber {
-  	list-style-type: none;
-  	color: #fff;
-  	font-family: Microsoft JhengHei;
-  	font-weight: 800;
-    .number {
-    	font-size: 0.8rem;
-    	color: #ddd;
-    	font-family: Microsoft JhengHei;
-    }
-  }
-  .officeHour {
-  	list-style-type: none;
-  	color: #fff;
-  	font-family: Microsoft JhengHei;
-  	font-weight: 800;
-    .time {
-    	font-size: 0.8rem;
-    	color: #ddd;
-    	font-family: Microsoft JhengHei;
-    }
-  }
-  }
-  .footer-underline {
-      height: 5px;
-      border: 0;
-      box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-  }
-  .copyright {
-  	color: #fff;
-  	font-size: 1rem;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//tablebar for all devices
 @media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1366px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 1.5)
-  , only screen
-  and (min-device-width : 768px)
-  and (max-device-width : 1024px)
-  and (orientation : portrait)
-  , only screen
-  and (min-device-width : 375px)
-  and (max-device-width : 812px)
-  and (-webkit-device-pixel-ratio : 3)
-  and (orientation : portrait)
-  , only screen
-  and (min-device-width : 414px)
-  and (max-device-width : 736px)
-  and (orientation : portrait)
-  , only screen
-  and (min-device-width : 375px)
-  and (max-device-width : 667px)
-  and (orientation : portrait)
-   {
-     .table-bar-container {
-     	position: fixed;
-      top: 81px;
-      left: 0px;
-     	z-index: 11;
-       .tableBar {
-       	font-family: Microsoft JhengHei;
-       	border-radius: 0;
-        width: calc(50vw);
-       }
-
-       .leftBar {
-       	background: #ffffff;
-       	letter-spacing: 2px;
-       	padding: 15px 35px;
-       	box-shadow: 0 0 20px 2px hsla(0,0%,64%,.2);
-       }
-
-       .leftbarColor{
-           color: hsla(0,0%,7%,.65);
-           font-family: Microsoft JhengHei;
-           font-size: 1.2rem;
-       }
-
-       .rightbarColor {
-       	color: #fff !important;
-       	padding: 0;
+  and (max-device-width: 812px)
+  {
+    .建案地區title-mobile {
+      position: relative;
+      z-index: 1;
+      font-family: Microsoft JhengHei;
+      font-size: 2.3rem;
+      font-weight: 800;
+      color: #404040;
+      margin: 1.5% 5% 1% 5%;
+      text-shadow: 0px 2px 3px #404040;
+    }
+    .area-underline {
+      border:0;
+      width: 70%;
+      height: 2.5px;
+      margin-left: 4.5%;
+      margin-top: 1%;
+      background: #333333;
+      box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
+      position: relative;
+    }
+    .area-bg {
+      position: relative;
+      height: calc(45vh);
+      width: calc(90vw);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: auto;
+      margin-right: auto;
+      display: table-cell;
+      vertical-align: middle;
+      margin-top: 20px;
+      opacity: 0.9;
+      box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    }
+    .建案地區mobile {
+      position: relative;
+    }
+    .地區mobile {
+      position: absolute;
+      z-index: 10;
+      bottom: 30px;
+      left: 50px;
+      color: #fff;
+      font-size: 2.5rem;
+    	font-family: Microsoft JhengHei;
+      font-weight: 800;
+    }
+    .ul {
+      list-style: none;
+      margin: 20px 10px 10px 0px;
+      padding-left: 20px;
+      .特色 {
+        font-size: 2rem;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+        text-shadow: 0px 2px 3px #404040;
+      }
+      .特色介紹 {
         font-size: 1.2rem;
-       	font-family: Microsoft JhengHei;
-       }
-
-       .rightBar {
-       	background: #0066cc;
-       	letter-spacing: 2px;
-       	padding: 10px 35px;
-       	box-shadow: 0 0 20px 2px hsla(0,0%,64%,.2);
-       }
-     }
-}
-
-
-//area section for ipad pro
-@media only screen
-  and (min-device-width: 1024px)
-  and (max-device-width: 1366px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .section2 {
-     height: 2640px !important;
-     position: relative;
-     z-index: 10;
-       #首璽 {
-          width: 100%;
-          background-repeat: no-repeat;
-          background-size: cover;
-          float: left;
-        }
-      .item {
-         width: 50%;
-         background-repeat: no-repeat;
-         background-size: cover;
-         float: left;
-        .title {
-         font-family: Microsoft JhengHei;
-         font-weight: 800;
-         color: #333333;
-         padding-left: 10px;
-        }
-        .s_intro {
-         transition: 0.3s ease-in-out;
-         user-select: none;
-         opacity: 0;
-        }
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
       }
     }
-    //目標與理念
-    .整體目標與理念 {
-    	background-color: #404040;
-    	height: 1150px !important;
-      .目標與理念 {
-      	font-family: Microsoft JhengHei;
-      	color: #fff;
-      	font-size: 4rem;
-      	font-weight: 800;
-      	margin: 0% 5% 1% 5%;
-      	padding-top: 4%;
-      }
-      .目標與理念-underline {
-      	border:0;
-          margin:0;
-          width: 50%;
-          height: 2px;
-          background: #ddd;
-          box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
-      }
-      .目標與理念排 {
-      	padding-top: 3%;
-      	padding-left: 3%;
-        a:hover, a:visited, a:link, a:active
-        {
-            text-decoration: none;
-            color: #404040;
-        }
-        .目標與理念區 {
-        	background: #f2f2f2;
-        	margin: 3% 3%;
-        	font-family: Microsoft JhengHei;
-        	font-weight: 800;
-          font-size: 3rem;
-        	color: #595959;
-        }
-        .fab {
-        	font-size: 4rem;
-        	width: 100%;
-        }
-
-        .far {
-        	font-size: 4rem;
-        	width: 100%;
-        }
-
-
-        .fas {
-        	width: 20%;
-        	font-size: 4rem;
-        	padding-bottom: 5px;
-        }
-
-        .fa-users {
-        	width: 100%;
-        }
-
-        .fa-leaf {
-        	width: 100%;
-        }
-
-        .fa-gg {
-        	width: 100%;
-        }
-
-        .fa-handshake {
-        	width: 100%;
-        }
-
-        .fa-thumbs-up {
-        	width: 100%;
-        }
-
-        .fa-people-carry {
-        	width: 100%;
-        }
-
-        .fa-hand-holding-heart {
-        	width: 100%;
-        }
-
-        .fa-home {
-        	width: 100%;
-        }
+    .特色瀏覽 {
+      color: #404040;
+      text-decoration: none;
+      margin-left: 57%;
+      font-family: Microsoft JhengHei;
+      font-weight: 800;
+      font-size: 1rem;
+      .fa-arrow-right {
+        margin-left: 10px;
       }
     }
-    //footer
     .main-footer {
       background-color: black;
       .footer-logo {
         margin-left: 1.5%;
         .logo-size {
-          width: 250px;
+          width: 50%;
+        }
+      }
+      .menu-wrapper {
+        font-size: 1.3rem;
+      .connectUs {
+        color: #fff;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+        margin-left: 5%;
+        font-size: 1.5rem;
+      }
+      .socialmediaIcon {
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        .fa-facebook {
+          width: 9%;
+          display: inline-block;
+          color: #ddd
+        }
+
+        .fa-instagram {
+          width: 9%;
+          display: inline-block;
+          color: #ddd;
+        }
+
+        .fa-youtube {
+          width: 9%;
+          display: inline-block;
+          color: #ddd;
+        }
+      }
+      .navigation {
+        list-style-type: none;
+        color: #fff;
+        font-family: Microsoft JhengHei;
+        font-weight: 500;
+          .navigationContent {
+          color: #fff;
+            &.navigationContent:hover {
+            color: #bfbfbf;
+            text-decoration: none;
+          }
+        }
+      }
+      .constructionSite {
+        list-style-type: none;
+        color: #fff;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+        margin-left: 5%;
+        .siteAddress {
+          font-size: 0.8rem;
+          color: #ddd;
+          font-family: Microsoft JhengHei;
+        }
+      }
+      .phoneNumber {
+        list-style-type: none;
+        color: #fff;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+        margin-left: 5%;
+        .number {
+          font-size: 0.8rem;
+          color: #ddd;
+          font-family: Microsoft JhengHei;
+        }
+      }
+      .officeHour {
+        list-style-type: none;
+        color: #fff;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+        margin-left: 5%;
+        .time {
+          font-size: 0.8rem;
+          color: #ddd;
+          font-family: Microsoft JhengHei;
+        }
+      }
+      }
+      .footer-underline {
+          height: 5px;
+          border: 0;
+          box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
+      }
+      .copyright {
+        color: #fff;
+        font-size: 0.9rem;
+      }
+    }
+}
+
+
+//ipad
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+  {
+    .建案地區title-mobile {
+      position: relative;
+      z-index: 1;
+      font-family: Microsoft JhengHei;
+      font-size: 3.7rem;
+      font-weight: 800;
+      color: #404040;
+      margin: 1.5% 5% 1% 5%;
+      text-shadow: 0px 2px 3px #404040;
+    }
+    .area-underline {
+    	border:0;
+      width: 60%;
+      height: 2.5px;
+      margin-left: 4.5%;
+      margin-top: 1%;
+      background: #333333;
+      box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
+      position: relative;
+    }
+    .area-bg {
+      margin-top: 30px;
+      height: calc(35vh);
+      width: calc(91vw);
+    }
+    .建案地區mobile {
+      position: relative;
+    }
+    .地區mobile {
+      position: absolute;
+      z-index: 10;
+      bottom: 30px;
+      left: 60px;
+      color: #fff;
+      font-size: 3rem;
+    	font-family: Microsoft JhengHei;
+      font-weight: 800;
+    }
+    .ul {
+      list-style: none;
+      margin: 20px 10px 10px 0px;
+      padding-left: 40px;
+      .特色 {
+        font-size: 2.3rem;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+        text-shadow: 0px 2px 3px #404040;
+      }
+      .特色介紹 {
+        font-size: 1.5rem;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+      }
+    }
+    .特色瀏覽 {
+      color: #404040;
+      text-decoration: none;
+      margin-left: 73%;
+      font-family: Microsoft JhengHei;
+      font-weight: 800;
+      font-size: 1.3rem;
+      .fa-arrow-right {
+        margin-left: 10px;
+      }
+    }
+    .socialmediaIcon {
+      margin-left: 8% !important;
+      .fa-facebook {
+        padding: 0px 15px;
+      }
+
+      .fa-instagram {
+        padding: 0px 15px;
+
+      }
+      .fa-youtube {
+        padding: 0px 15px;
+      }
+    }
+    .main-footer {
+      background-color: black;
+      .footer-logo {
+        margin-left: 1.5%;
+        .logo-size {
+          width: 20%;
         }
       }
       .menu-wrapper {
@@ -648,2804 +664,79 @@ nav {
       }
       .socialmediaIcon {
         margin-left: 15%;
-        margin-top: 5px;
-        margin-bottom: 5px;
         .fa-facebook {
-          width: 17%;
+          width: 12%;
           display: inline-block;
           color: #ddd
         }
 
         .fa-instagram {
-          width: 17%;
+          width: 12%;
           display: inline-block;
           color: #ddd;
         }
 
         .fa-youtube {
-          width: 8%;
+          width: 12%;
           display: inline-block;
           color: #ddd;
         }
       }
-    }
-  }
-  }
-
-
-//area section for ipad
-  @media only screen
-    and (min-device-width : 768px)
-    and (max-device-width : 1024px)
-    and (orientation : portrait)
-     {
-       //video images
-       .banner {
-         .banner-image {
-           height: calc(100vh);
-           width: 100%;
-         }
-         #content {
-          font-family: Microsoft JhengHei;
-          text-align: left;
-          color: #eee;
-          text-shadow: 0px 2.5px 3px grey;
-          position: absolute;
-          bottom: 0;
-          left: 10px;
-          padding-bottom: 50px;
-          padding-left: 5px;
-
-           .安居樂業 {
-            font-weight: 700;
-            font-size: 4em;
-           }
-
-           .description1 {
-            font-size: 1.5em;
-           }
-
-           #h4 {
-            font-size: 1.5rem;
-           }
-
-           .content-underline {
-               height: 12px;
-               border: 0;
-               box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-               margin-right: 0%;
-               margin-top: 10px;
-           }
-
-           .videoButton {
-            font-size: 1.2em;
-            padding-top: 5px;
-            float: left;
-
-             #myStory {
-              text-decoration: none;
-             }
-
-             .myStory {
-              border: 3px solid #eee;
-              padding: 10px 20px;
-              font-size: 20px;
-              color: #eee;
-
-               &:hover {
-                 background-color: #eee;
-                 color: #666;
-                 font-weight: 900;
-                 transition: 0.5s ease-in-out;
-               }
-             }
-           }
-         }
-       }
-      .section2 {
-       height: 2640px;
-       position: relative;
-       z-index: 10;
-         #首璽 {
-            width: 100%;
-            background-repeat: no-repeat;
-            background-size: cover;
-            float: left;
-            height: px;
-          }
-        .item {
-           width: 50%;
-           background-repeat: no-repeat;
-           background-size: cover;
-           float: left;
-           height: 880px;
-          .title {
-           font-family: Microsoft JhengHei;
-           font-size: 4rem !important;
-           font-weight: 800;
-           color: #333333;
-           padding-left: 10px;
-          }
-          .s_intro {
-           transition: 0.3s ease-in-out;
-           user-select: none;
-           opacity: 0;
+      .navigation {
+        list-style-type: none;
+        color: #fff;
+        font-family: Microsoft JhengHei;
+        font-weight: 500;
+          .navigationContent {
+          color: #fff;
+            &.navigationContent:hover {
+            color: #bfbfbf;
+            text-decoration: none;
           }
         }
       }
-      .目標與理念排 {
-        margin-top: 30px;
-      }
-    }
-
-
-
-  //area section for iphone X
-  @media only screen
-    and (min-device-width : 375px)
-    and (max-device-width : 812px)
-    and (-webkit-device-pixel-ratio : 3)
-    and (orientation : portrait)
-     {
-       //video images
-       .banner {
-         .banner-image {
-           height: calc(100vh);
-           width: 100%;
-         }
-         #content {
-         	font-family: Microsoft JhengHei;
-         	text-align: left;
-         	color: #eee;
-         	text-shadow: 0px 2.5px 3px grey;
-         	position: absolute;
-         	bottom: 0;
-         	left: 10px;
-         	padding-bottom: 50px;
-         	padding-left: 5px;
-
-           .安居樂業 {
-           	font-weight: 700;
-           	font-size: 2.5em;
-           }
-
-           .description1 {
-           	font-size: 1em;
-           }
-
-           #h4 {
-           	font-size: 1rem;
-           }
-
-           .content-underline {
-               height: 12px;
-               border: 0;
-               box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-               margin-right: 0%;
-               margin-top: 10px;
-           }
-
-           .videoButton {
-           	font-size: 1.2em;
-           	padding-top: 5px;
-           	float: left;
-
-             #myStory {
-             	text-decoration: none;
-             }
-
-             .myStory {
-             	border: 3px solid #eee;
-             	padding: 10px 20px;
-             	font-size: 15px;
-             	color: #eee;
-
-               &:hover {
-                 background-color: #eee;
-                 color: #666;
-                 font-weight: 900;
-                 transition: 0.5s ease-in-out;
-               }
-             }
-           }
-         }
-       }
-      .section2 {
-       height: 3500px !important;
-       position: relative;
-       z-index: 10;
-         #首璽 {
-            width: 100%;
-            background-repeat: no-repeat;
-            background-size: cover;
-            float: left;
-            height: 700px !important;
-          }
-        .item {
-           width: 100%;
-           background-repeat: no-repeat;
-           background-size: cover;
-           float: left;
-           height: 700px !important;
-          .title {
-           font-family: Microsoft JhengHei;
-           font-size: 3rem !important;
-           font-weight: 800;
-           color: #333333;
-           padding-left: 10px;
-          }
-          .s_intro {
-           transition: 0.3s ease-in-out;
-           user-select: none;
-           opacity: 0;
-          }
-        }
-      }
-      //目標與理念
-      .整體目標與理念 {
-      	background-color: #404040;
-      	height: 670px !important;
-        .目標與理念 {
-        	font-family: Microsoft JhengHei;
-        	color: #fff;
-        	font-size: 2.5rem;
-        	font-weight: 800;
-        	margin: 0% 5% 1% 5%;
-        	padding-top: 4%;
-        }
-        .目標與理念-underline {
-        	border:0;
-            margin:0;
-            width: 50%;
-            height: 2px;
-            background: #ddd;
-            box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
-        }
-        .目標與理念排 {
-        	padding-top: 8%;
-        	padding-left: 3%;
-          a:hover, a:visited, a:link, a:active
-          {
-              text-decoration: none;
-              color: #404040;
-          }
-          .目標與理念區 {
-          	background: #f2f2f2;
-          	margin: 3% 3%;
-          	font-family: Microsoft JhengHei;
-          	font-weight: 800;
-            font-size: 1.5rem;
-          	color: #595959;
-          }
-          .fab {
-          	font-size: 4rem;
-          	width: 100%;
-          }
-
-          .far {
-          	font-size: 4rem;
-          	width: 100%;
-          }
-
-          .fas {
-          	width: 20%;
-          	font-size: 4rem;
-          	padding-bottom: 5px;
-          }
-
-          .fa-users {
-          	width: 100%;
-          }
-
-          .fa-leaf {
-          	width: 100%;
-          }
-
-          .fa-gg {
-          	width: 100%;
-          }
-
-          .fa-handshake {
-          	width: 100%;
-          }
-
-          .fa-thumbs-up {
-          	width: 100%;
-          }
-
-          .fa-people-carry {
-          	width: 100%;
-          }
-
-          .fa-hand-holding-heart {
-          	width: 100%;
-          }
-
-          .fa-home {
-          	width: 100%;
-          }
-        }
-      }
-      //footer
-      .main-footer {
-      	background-color: black;
-        .footer-logo {
-        	margin-left: 1.5%;
-          .logo-size {
-          	width: 200px;
-          }
-        }
-        .menu-wrapper {
-        	font-size: 1.3rem;
-        .connectUs {
-        	color: #fff;
-        	font-family: Microsoft JhengHei;
-        	font-weight: 800;
-        	margin-left: 5%;
-        	font-size: 1.5rem;
-        }
-        .socialmediaIcon {
-        	margin-left: 5%;
-        	margin-top: 5px;
-        	margin-bottom: 5px;
-          .fa-facebook {
-          	width: 8%;
-          	display: inline-block;
-          	color: #ddd
-          }
-
-          .fa-instagram {
-          	width: 8%;
-          	display: inline-block;
-          	color: #ddd;
-          }
-
-          .fa-youtube {
-          	width: 8%;
-          	display: inline-block;
-          	color: #ddd;
-          }
-        }
-        .navigation {
-        	list-style-type: none;
-        	color: #fff;
-        	font-family: Microsoft JhengHei;
-        	font-weight: 500;
-          padding-left: 15px;
-            .navigationContent {
-          	color: #fff;
-              &.navigationContent:hover {
-              color: #bfbfbf;
-              text-decoration: none;
-            }
-          }
-        }
-        .constructionSite {
-        	list-style-type: none;
-        	color: #fff;
-        	font-family: Microsoft JhengHei;
-        	font-weight: 800;
-          margin-bottom: 5px;
-          padding-left: 15px !important;
-          .siteAddress {
-          	font-size: 0.8rem;
-          	color: #ddd;
-          	font-family: Microsoft JhengHei;
-          }
-        }
-        .phoneNumber {
-        	list-style-type: none;
-        	color: #fff;
-        	font-family: Microsoft JhengHei;
-        	font-weight: 800;
-          padding-left: 15px !important;
-          margin-bottom: 5px;
-          .number {
-          	font-size: 0.8rem;
-          	color: #ddd;
-          	font-family: Microsoft JhengHei;
-          }
-        }
-        .officeHour {
-        	list-style-type: none;
-        	color: #fff;
-        	font-family: Microsoft JhengHei;
-        	font-weight: 800;
-          padding-left: 15px !important;
-          margin-bottom: 5px;
-          .time {
-          	font-size: 0.8rem;
-          	color: #ddd;
-          	font-family: Microsoft JhengHei;
-          }
-        }
-        }
-        .footer-underline {
-            height: 5px;
-            border: 0;
-            box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-        }
-        .copyright {
-        	color: #fff;
-        	font-size: 0.9rem;
-        }
-      }
-    }
-
-    //area section for iphone plus
-    @media only screen
-    and (min-device-width : 414px)
-    and (max-device-width : 736px)
-    and (orientation : portrait)
-       {
-         //video images
-         .banner {
-           .banner-image {
-             height: calc(100vh);
-             width: 100%;
-           }
-           #content {
-           	font-family: Microsoft JhengHei;
-           	text-align: left;
-           	color: #eee;
-           	text-shadow: 0px 2.5px 3px grey;
-           	position: absolute;
-           	bottom: 0;
-           	left: 10px;
-           	padding-bottom: 50px;
-           	padding-left: 5px;
-
-             .安居樂業 {
-             	font-weight: 700;
-             	font-size: 2.5em;
-             }
-
-             .description1 {
-             	font-size: 1em;
-             }
-
-             #h4 {
-             	font-size: 1rem;
-             }
-
-             .content-underline {
-                 height: 12px;
-                 border: 0;
-                 box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-                 margin-right: 0%;
-                 margin-top: 10px;
-             }
-
-             .videoButton {
-             	font-size: 1.2em;
-             	padding-top: 5px;
-             	float: left;
-
-               #myStory {
-               	text-decoration: none;
-               }
-
-               .myStory {
-               	border: 3px solid #eee;
-               	padding: 10px 20px;
-               	font-size: 15px;
-               	color: #eee;
-
-                 &:hover {
-                   background-color: #eee;
-                   color: #666;
-                   font-weight: 900;
-                   transition: 0.5s ease-in-out;
-                 }
-               }
-             }
-           }
-         }
-        .section2 {
-         height: 3400px !important;
-         position: relative;
-         z-index: 10;
-           #首璽 {
-              width: 100%;
-              background-repeat: no-repeat;
-              background-size: cover;
-              float: left;
-              height: 680px !important;
-            }
-          .item {
-             width: 100%;
-             background-repeat: no-repeat;
-             background-size: cover;
-             float: left;
-             height: 680px !important;
-            .title {
-             font-family: Microsoft JhengHei;
-             font-size: 2em;
-             font-weight: 800;
-             color: #333333;
-             padding-left: 10px;
-            }
-            .s_intro {
-             transition: 0.3s ease-in-out;
-             user-select: none;
-             opacity: 0;
-            }
-          }
-        }
-      }
-
-
-    //area section for iphone 678
-    @media only screen
-      and (min-device-width : 375px)
-      and (max-device-width : 667px)
-      and (orientation : portrait)
-       {
-         //video images
-         .banner {
-           .banner-image {
-             height: calc(100vh);
-             width: 100%;
-           }
-           #content {
-            font-family: Microsoft JhengHei;
-            text-align: left;
-            color: #eee;
-            text-shadow: 0px 2.5px 3px grey;
-            position: absolute;
-            bottom: 0;
-            left: 10px;
-            padding-bottom: 50px;
-            padding-left: 5px;
-
-             .安居樂業 {
-              font-weight: 700;
-              font-size: 2.5em;
-             }
-
-             .description1 {
-              font-size: 0.8em;
-             }
-
-             #h4 {
-              font-size: 0.8rem;
-             }
-
-             .content-underline {
-                 height: 12px;
-                 border: 0;
-                 box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-                 margin-right: 0%;
-                 margin-top: 10px;
-             }
-
-             .videoButton {
-              font-size: 1.2em;
-              padding-top: 5px;
-              float: left;
-
-               #myStory {
-                text-decoration: none;
-               }
-
-               .myStory {
-                border: 3px solid #eee;
-                padding: 10px 20px;
-                font-size: 15px;
-                color: #eee;
-
-                 &:hover {
-                   background-color: #eee;
-                   color: #666;
-                   font-weight: 900;
-                   transition: 0.5s ease-in-out;
-                 }
-               }
-             }
-           }
-         }
-        .section2 {
-         height: 2850px;
-         position: relative;
-         z-index: 10;
-           #首璽 {
-              width: 100%;
-              background-repeat: no-repeat;
-              background-size: cover;
-              float: left;
-              height: 570px;
-            }
-          .item {
-             width: 100%;
-             background-repeat: no-repeat;
-             background-size: cover;
-             float: left;
-             height: 570px;
-            .title {
-             font-family: Microsoft JhengHei;
-             font-size: 2.5rem !important;
-             font-weight: 800;
-             color: #333333;
-             padding-left: 10px;
-            }
-            .s_intro {
-             transition: 0.3s ease-in-out;
-             user-select: none;
-             opacity: 0;
-            }
-          }
-        }
-        //目標與理念
-        .整體目標與理念 {
-        	background-color: #404040;
-        	height: 670px !important;
-          .目標與理念 {
-          	font-family: Microsoft JhengHei;
-          	color: #fff;
-          	font-size: 2.5rem;
-          	font-weight: 800;
-          	margin: 0% 5% 1% 5%;
-          	padding-top: 4%;
-          }
-          .目標與理念-underline {
-          	border:0;
-              margin:0;
-              width: 50%;
-              height: 2px;
-              background: #ddd;
-              box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
-          }
-          .目標與理念排 {
-          	padding-top: 8%;
-          	padding-left: 3%;
-            a:hover, a:visited, a:link, a:active
-            {
-                text-decoration: none;
-                color: #404040;
-            }
-            .目標與理念區 {
-            	background: #f2f2f2;
-            	margin: 3% 3%;
-            	font-family: Microsoft JhengHei;
-            	font-weight: 800;
-              font-size: 1.5rem;
-            	color: #595959;
-            }
-            .fab {
-            	font-size: 4rem;
-            	width: 100%;
-            }
-
-            .far {
-            	font-size: 4rem;
-            	width: 100%;
-            }
-
-            .fas {
-            	width: 20%;
-            	font-size: 4rem;
-            	padding-bottom: 5px;
-            }
-
-            .fa-users {
-            	width: 100%;
-            }
-
-            .fa-leaf {
-            	width: 100%;
-            }
-
-            .fa-gg {
-            	width: 100%;
-            }
-
-            .fa-handshake {
-            	width: 100%;
-            }
-
-            .fa-thumbs-up {
-            	width: 100%;
-            }
-
-            .fa-people-carry {
-            	width: 100%;
-            }
-
-            .fa-hand-holding-heart {
-            	width: 100%;
-            }
-
-            .fa-home {
-            	width: 100%;
-            }
-          }
-        }
-        //footer
-        .main-footer {
-        	background-color: black;
-          .footer-logo {
-          	margin-left: 1.5%;
-            .logo-size {
-            	width: 200px;
-            }
-          }
-          .menu-wrapper {
-          	font-size: 1.3rem;
-          .connectUs {
-          	color: #fff;
-          	font-family: Microsoft JhengHei;
-          	font-weight: 800;
-          	margin-left: 5%;
-          	font-size: 1.5rem;
-          }
-          .socialmediaIcon {
-          	margin-left: 5%;
-          	margin-top: 5px;
-          	margin-bottom: 5px;
-            .fa-facebook {
-            	width: 8%;
-            	display: inline-block;
-            	color: #ddd
-            }
-
-            .fa-instagram {
-            	width: 8%;
-            	display: inline-block;
-            	color: #ddd;
-            }
-
-            .fa-youtube {
-            	width: 8%;
-            	display: inline-block;
-            	color: #ddd;
-            }
-          }
-          .navigation {
-          	list-style-type: none;
-          	color: #fff;
-          	font-family: Microsoft JhengHei;
-          	font-weight: 500;
-            padding-left: 15px;
-              .navigationContent {
-            	color: #fff;
-                &.navigationContent:hover {
-                color: #bfbfbf;
-                text-decoration: none;
-              }
-            }
-          }
-          .constructionSite {
-          	list-style-type: none;
-          	color: #fff;
-          	font-family: Microsoft JhengHei;
-          	font-weight: 800;
-            margin-bottom: 5px;
-            padding-left: 15px !important;
-            .siteAddress {
-            	font-size: 0.8rem;
-            	color: #ddd;
-            	font-family: Microsoft JhengHei;
-            }
-          }
-          .phoneNumber {
-          	list-style-type: none;
-          	color: #fff;
-          	font-family: Microsoft JhengHei;
-          	font-weight: 800;
-            padding-left: 15px !important;
-            margin-bottom: 5px;
-            .number {
-            	font-size: 0.8rem;
-            	color: #ddd;
-            	font-family: Microsoft JhengHei;
-            }
-          }
-          .officeHour {
-          	list-style-type: none;
-          	color: #fff;
-          	font-family: Microsoft JhengHei;
-          	font-weight: 800;
-            padding-left: 15px !important;
-            margin-bottom: 5px;
-            .time {
-            	font-size: 0.8rem;
-            	color: #ddd;
-            	font-family: Microsoft JhengHei;
-            }
-          }
-          }
-          .footer-underline {
-              height: 5px;
-              border: 0;
-              box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-          }
-          .copyright {
-          	color: #fff;
-          	font-size: 0.9rem;
-          }
-        }
-      }
-
-//table none
-@media only screen
-  and (min-device-width : 375px)
-  and (max-device-width : 812px)
-  and (-webkit-device-pixel-ratio : 3)
-  and (orientation : landscape)
-  , only screen
-  and (min-device-width : 414px)
-  and (max-device-width : 736px)
-  and (orientation : landscape)
-  , only screen
-  and (min-device-width : 375px)
-  and (max-device-width : 667px)
-  and (orientation : landscape)
-   {
-     .table-bar-container {
-       display: none;
-     }
-}
-
-//iphone plus landscape
-@media only screen
-and (min-device-width : 414px)
-and (max-device-width : 736px)
-and (orientation : landscape)
-{
-  //目標與理念
-  .整體目標與理念 {
-    background-color: #404040;
-    height: 885px !important;
-    .目標與理念 {
-      font-family: Microsoft JhengHei;
-      color: #fff;
-      font-size: 2.5rem;
-      font-weight: 800;
-      margin: 0% 5% 1% 5%;
-      padding-top: 4%;
-    }
-    .目標與理念-underline {
-      border:0;
-        margin:0;
-        width: 50%;
-        height: 2px;
-        background: #ddd;
-        box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
-    }
-    .目標與理念排 {
-      padding-top: 8%;
-      padding-left: 3%;
-      a:hover, a:visited, a:link, a:active
-      {
-          text-decoration: none;
-          color: #404040;
-      }
-      .目標與理念區 {
-        background: #f2f2f2;
-        padding: 2% 3%;
-        margin: 3% 3%;
+      .constructionSite {
+        list-style-type: none;
+        color: #fff;
         font-family: Microsoft JhengHei;
         font-weight: 800;
-        font-size: 1.3rem;
-        color: #595959;
-      }
-      .fab {
-        font-size: 4rem;
-        width: 100%;
-      }
-
-      .far {
-        font-size: 4rem;
-        width: 100%;
-      }
-
-      .fas {
-        width: 20%;
-        font-size: 4rem;
-        padding-bottom: 5px;
-      }
-
-      .fa-users {
-        width: 100%;
-      }
-
-      .fa-leaf {
-        width: 100%;
-      }
-
-      .fa-gg {
-        width: 100%;
-      }
-
-      .fa-handshake {
-        width: 100%;
-      }
-
-      .fa-thumbs-up {
-        width: 100%;
-      }
-
-      .fa-people-carry {
-        width: 100%;
-      }
-
-      .fa-hand-holding-heart {
-        width: 100%;
-      }
-
-      .fa-home {
-        width: 100%;
-      }
-    }
-  }
-}
-
-//iphone x landscape
-@media only screen
-  and (min-device-width : 375px)
-  and (max-device-width : 812px)
-  and (-webkit-device-pixel-ratio : 3)
-  and (orientation : landscape){
-    //video images
-    .banner {
-      .banner-image {
-        height: calc(100vh);
-        width: 100%;
-      }
-      #content {
-       font-family: Microsoft JhengHei;
-       text-align: left;
-       color: #eee;
-       text-shadow: 0px 2.5px 3px grey;
-       position: absolute;
-       bottom: 0;
-       left: 10px;
-       padding-bottom: 20px;
-       padding-left: 5px;
-
-        .安居樂業 {
-         font-weight: 700;
-         font-size: 2em;
-        }
-
-        .description1 {
-         font-size: 0.8em;
-        }
-
-        #h4 {
-         font-size: 0.8rem;
-        }
-
-        .content-underline {
-            height: 12px;
-            border: 0;
-            box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-            margin-right: 0%;
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-
-        .videoButton {
-         font-size: 1.2em;
-         padding-top: 5px;
-         float: left;
-
-          #myStory {
-           text-decoration: none;
-          }
-
-          .myStory {
-           border: 3px solid #eee;
-           padding: 5px 15px;
-           font-size: 15px;
-           color: #eee;
-
-            &:hover {
-              background-color: #eee;
-              color: #666;
-              font-weight: 900;
-              transition: 0.5s ease-in-out;
-            }
-          }
-        }
-      }
-    }
-   .section2 {
-    height: 2100px !important;
-    position: relative;
-    z-index: 10;
-      #首璽 {
-         width: 100%;
-         background-repeat: no-repeat;
-         background-size: cover;
-         float: left;
-         height: 700px;
-       }
-     .item {
-        width: 50%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        float: left;
-        height: 700px;
-       .title {
-        font-family: Microsoft JhengHei;
-        font-size: 2.5rem !important;
-        font-weight: 800;
-        color: #333333;
-        padding-left: 10px;
-       }
-       .s_intro {
-        transition: 0.3s ease-in-out;
-        user-select: none;
-        opacity: 0;
-       }
-     }
-   }
-   //目標與理念
-   .整體目標與理念 {
-     background-color: #404040;
-     height: 855px !important;
-     .目標與理念 {
-       font-family: Microsoft JhengHei;
-       color: #fff;
-       font-size: 2.5rem;
-       font-weight: 800;
-       margin: 0% 5% 1% 5%;
-       padding-top: 4%;
-     }
-     .目標與理念-underline {
-       border:0;
-         margin:0;
-         width: 50%;
-         height: 2px;
-         background: #ddd;
-         box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
-     }
-     .目標與理念排 {
-       padding-top: 8%;
-       padding-left: 3%;
-       a:hover, a:visited, a:link, a:active
-       {
-           text-decoration: none;
-           color: #404040;
-       }
-       .目標與理念區 {
-         background: #f2f2f2;
-         padding: 2% 3%;
-         margin: 3% 3%;
-         font-family: Microsoft JhengHei;
-         font-weight: 800;
-         font-size: 1.5rem;
-         color: #595959;
-       }
-       .fab {
-         font-size: 4rem;
-         width: 100%;
-       }
-
-       .far {
-         font-size: 4rem;
-         width: 100%;
-       }
-
-       .fas {
-         width: 20%;
-         font-size: 4rem;
-         padding-bottom: 5px;
-       }
-
-       .fa-users {
-         width: 100%;
-       }
-
-       .fa-leaf {
-         width: 100%;
-       }
-
-       .fa-gg {
-         width: 100%;
-       }
-
-       .fa-handshake {
-         width: 100%;
-       }
-
-       .fa-thumbs-up {
-         width: 100%;
-       }
-
-       .fa-people-carry {
-         width: 100%;
-       }
-
-       .fa-hand-holding-heart {
-         width: 100%;
-       }
-
-       .fa-home {
-         width: 100%;
-       }
-     }
-   }
-   //footer
-     .socialmediaIcon {
-       margin-left: 5%;
-       margin-top: 5px;
-       margin-bottom: 5px;
-       .fa-facebook {
-         width: 18% !important;
-         display: inline-block;
-         color: #ddd
-       }
-
-       .fa-instagram {
-         width: 18% !important;
-         display: inline-block;
-         color: #ddd;
-       }
-
-       .fa-youtube {
-         width: 18% !important;
-         display: inline-block;
-         color: #ddd;
-       }
-     }
-    }
-
-
-  //iphone 678 landscape
-  @media only screen
-    and (min-device-width : 375px)
-    and (max-device-width : 667px)
-    and (orientation : landscape)
-    {
-      //video images
-      .banner {
-        .banner-image {
-          height: calc(100vh);
-          width: 100%;
-        }
-        #content {
-         font-family: Microsoft JhengHei;
-         text-align: left;
-         color: #eee;
-         text-shadow: 0px 2.5px 3px grey;
-         position: absolute;
-         bottom: 0;
-         left: 10px;
-         padding-bottom: 20px;
-         padding-left: 5px;
-
-          .安居樂業 {
-           font-weight: 700;
-           font-size: 2em !important;
-          }
-
-          .description1 {
-           font-size: 0.8em;
-          }
-
-          #h4 {
-           font-size: 0.8rem;
-          }
-
-          .content-underline {
-              height: 12px;
-              border: 0;
-              box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-              margin-right: 0%;
-              margin-top: 5px;
-              margin-bottom: 5px;
-          }
-
-          .videoButton {
-           font-size: 1.2em;
-           padding-top: 5px;
-           float: left;
-
-            #myStory {
-             text-decoration: none;
-            }
-
-            .myStory {
-             border: 3px solid #eee;
-             padding: 5px 15px;
-             font-size: 15px;
-             color: #eee;
-
-              &:hover {
-                background-color: #eee;
-                color: #666;
-                font-weight: 900;
-                transition: 0.5s ease-in-out;
-              }
-            }
-          }
-        }
-      }
-     .section2 {
-      height: 2100px !important;
-      position: relative;
-      z-index: 10;
-        #首璽 {
-           width: 100%;
-           background-repeat: no-repeat;
-           background-size: cover;
-           float: left;
-           height: 700px;
-         }
-       .item {
-          width: 50%;
-          background-repeat: no-repeat;
-          background-size: cover;
-          float: left;
-          height: 700px;
-         .title {
+        .siteAddress {
+          font-size: 0.8rem;
+          color: #ddd;
           font-family: Microsoft JhengHei;
-          font-size: 2.5rem !important;
-          font-weight: 800;
-          color: #333333;
-          padding-left: 10px;
-         }
-         .s_intro {
-          transition: 0.3s ease-in-out;
-          user-select: none;
-          opacity: 0;
-         }
-       }
-     }
-     //目標與理念
-     .整體目標與理念 {
-       background-color: #404040;
-       height: 680px !important;
-       .目標與理念 {
-         font-family: Microsoft JhengHei;
-         color: #fff;
-         font-size: 2rem;
-         font-weight: 800;
-         margin: 0% 5% 1% 5%;
-         padding-top: 4%;
-       }
-       .目標與理念-underline {
-         border:0;
-           margin:0;
-           width: 50%;
-           height: 2px;
-           background: #ddd;
-           box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
-       }
-       .目標與理念排 {
-         padding-top: 8%;
-         padding-left: 3%;
-         a:hover, a:visited, a:link, a:active
-         {
-             text-decoration: none;
-             color: #404040;
-         }
-         .目標與理念區 {
-           background: #f2f2f2;
-           padding: 1% 2%;
-           margin: 1.5% 1.5%;
-           font-family: Microsoft JhengHei;
-           font-weight: 800;
-           font-size: 1rem;
-           color: #595959;
-         }
-         .fab {
-           font-size: 4rem;
-           width: 100%;
-         }
-
-         .far {
-           font-size: 4rem;
-           width: 100%;
-         }
-
-         .fas {
-           width: 20%;
-           font-size: 4rem;
-           padding-bottom: 5px;
-         }
-
-         .fa-users {
-           width: 100%;
-         }
-
-         .fa-leaf {
-           width: 100%;
-         }
-
-         .fa-gg {
-           width: 100%;
-         }
-
-         .fa-handshake {
-           width: 100%;
-         }
-
-         .fa-thumbs-up {
-           width: 100%;
-         }
-
-         .fa-people-carry {
-           width: 100%;
-         }
-
-         .fa-hand-holding-heart {
-           width: 100%;
-         }
-
-         .fa-home {
-           width: 100%;
-         }
-       }
-     }
-     //footer
-     .main-footer {
-     	background-color: black;
-       .footer-logo {
-       	margin-left: 1.5%;
-         .logo-size {
-         	width: 20%;
-         }
-       }
-       .menu-wrapper {
-       	font-size: 1.3rem;
-       .connectUs {
-       	color: #fff;
-       	font-family: Microsoft JhengHei;
-       	font-weight: 800;
-       	margin-left: 15%;
-       	font-size: 1.5rem;
-       }
-       .socialmediaIcon {
-       	margin-left: 15%;
-       	margin-top: 7%;
-       	margin-bottom: 7%;
-         .fa-facebook {
-         	width: 21%;
-         	display: inline-block;
-         	color: #ddd
-         }
-
-         .fa-instagram {
-         	width: 21%;
-         	display: inline-block;
-         	color: #ddd;
-         }
-
-         .fa-youtube {
-         	width: 21%;
-         	display: inline-block;
-         	color: #ddd;
-         }
-       }
-       .navigation {
-       	list-style-type: none;
-       	color: #fff;
-       	font-family: Microsoft JhengHei;
-       	font-weight: 500;
-           .navigationContent {
-         	color: #fff;
-             &.navigationContent:hover {
-             color: #bfbfbf;
-             text-decoration: none;
-           }
-         }
-       }
-       .constructionSite {
-       	list-style-type: none;
-       	color: #fff;
-       	font-family: Microsoft JhengHei;
-       	font-weight: 800;
-         .siteAddress {
-         	font-size: 0.8rem;
-         	color: #ddd;
-         	font-family: Microsoft JhengHei;
-         }
-       }
-       .phoneNumber {
-       	list-style-type: none;
-       	color: #fff;
-       	font-family: Microsoft JhengHei;
-       	font-weight: 800;
-         .number {
-         	font-size: 0.8rem;
-         	color: #ddd;
-         	font-family: Microsoft JhengHei;
-         }
-       }
-       .officeHour {
-       	list-style-type: none;
-       	color: #fff;
-       	font-family: Microsoft JhengHei;
-       	font-weight: 800;
-         .time {
-         	font-size: 0.8rem;
-         	color: #ddd;
-         	font-family: Microsoft JhengHei;
-         }
-       }
-       }
-       .footer-underline {
-           height: 5px;
-           border: 0;
-           box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-       }
-       .copyright {
-       	color: #fff;
-       	font-size: 1rem;
-       }
-     }
+        }
+      }
+      .phoneNumber {
+        list-style-type: none;
+        color: #fff;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+        .number {
+          font-size: 0.8rem;
+          color: #ddd;
+          font-family: Microsoft JhengHei;
+        }
+      }
+      .officeHour {
+        list-style-type: none;
+        color: #fff;
+        font-family: Microsoft JhengHei;
+        font-weight: 800;
+        .time {
+          font-size: 0.8rem;
+          color: #ddd;
+          font-family: Microsoft JhengHei;
+        }
+      }
+      }
+      .footer-underline {
+          height: 5px;
+          border: 0;
+          box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
+      }
+      .copyright {
+        color: #fff;
+        font-size: 1rem;
+      }
     }
-
-
-
-
-
-
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// /* .iframe {
-// 	width: 100%;
-// }
-//
-//
-// .logo {
-// 	width: 200px;
-// 	top: 0;
-// }
-//
-// .bg-light {
-// 	background-color: white !important;
-// }
-// .banner {
-// 	position: relative;
-//
-// }
-//
-// .row {
-// 	margin-right: 0;
-// } */
-//
-//
-// /* @media screen and (min-width: 992px) {
-// 	.banner {
-// 		height: calc(100vh);
-// 	}
-// }
-//
-// .banner-image {
-// 	height: calc(100vh - 75px);
-// 	width: 100%;
-// }
-// .col-20 {
-// 	flex: 0 0 20%;
-// 	max-width: 20%;
-// }
-//
-// .navbar {
-// 	position: fixed;
-// 	width: 100%;
-// 	z-index: 11;
-// 	background-color: #fff;
-// }
-//
-// .navbar-nav {
-// 	margin-right: 45% !important;
-// }
-// .navbar-margin {
-// 	height: 75px;
-// }
-//
-// .navbar-collapse {
-// 	font-family: Microsoft JhengHei;
-// }
-//
-// .nav-item {
-// 	padding-top: 39px;
-// 	font-size:  1.2rem;
-// 	margin-left: 10px;
-//
-// } */
-//
-//
-// /* @media screen and (min-width: 375px) {
-//
-// .demo a {
-//   position: absolute;
-//   bottom: 0px;
-//   left: 50%;
-//   z-index: 2;
-//   display: inline-block;
-//   -webkit-transform: translate(0, -50%);
-//   transform: translate(0, -50%);
-//   color: #fff;
-//   font : normal 400 20px/1 'Josefin Sans', sans-serif;
-//   letter-spacing: .1em;
-//   text-decoration: none;
-//   transition: opacity .3s;
-// }
-// #section01 a:hover {
-//   opacity: 0.3;
-// }
-//
-//
-//
-// #section01 a {
-//   padding-top: 40px;
-//   color: #fff;
-//   opacity: 0.6;
-// }
-//
-// #section01 a span {
-//   position: absolute;
-//   top: 0;
-//   left: 50%;
-//   width: 24px;
-//   height: 24px;
-//   margin-left: -12px;
-//   border-left: 5px solid #fff;
-//   border-bottom: 5px solid #fff;
-//   -webkit-transform: rotate(-45deg);
-//   transform: rotate(-45deg);
-//   box-sizing: border-box;
-// }
-//
-//
-// .table-bar-container {
-// 	position: fixed;
-// 	z-index: 11;
-// 	top: 60px;
-// 	right: 11px;
-// }
-//
-// .tableBar {
-// 	font-family: Microsoft JhengHei;
-// 	border-radius: 0;
-// 	margin-top: 10px;
-// }
-//
-// .leftBar {
-// 	background: #ffffff;
-// 	letter-spacing: 2px;
-// 	padding: 15px 35px;
-// 	box-shadow: 0 0 20px 2px hsla(0,0%,64%,.2);
-// }
-//
-// .leftbarColor{
-//     color: hsla(0,0%,7%,.65);
-//     font-family: Microsoft JhengHei;
-// }
-//
-// .rightbarColor {
-// 	color: #fff !important;
-// 	padding: 0;
-// 	font-family: Microsoft JhengHei;
-// }
-//
-// .rightBar {
-// 	background: #0066cc;
-// 	letter-spacing: 2px;
-// 	padding: 10px 35px;
-// 	box-shadow: 0 0 20px 2px hsla(0,0%,64%,.2);
-// }
-//
-// #content {
-// 	font-family: Microsoft JhengHei;
-// 	text-align: left;
-// 	color: #eee;
-// 	text-shadow: 0px 2.5px 3px grey;
-// 	position: absolute;
-// 	bottom: 0;
-// 	left: 10px;
-// 	padding-bottom: 50px;
-// 	padding-left: 20px;
-// }
-//
-// .myStory {
-// 	border: 3px solid #eee;
-// 	padding: 10px 20px;
-// 	font-size: 15px;
-// 	color: #eee;
-// }
-//
-// .myStory:hover {
-// 	background-color: #eee;
-// 	color: #666;
-// 	font-weight: 900;
-// 	transition: 0.5s ease-in-out;
-// }
-//
-// #myStory {
-// 	text-decoration: none;
-// }
-//
-//
-// .安居樂業 {
-// 	font-weight: 700;
-// 	font-size: 3em;
-// }
-//
-// .description1 {
-// 	font-size: 1.2em;
-// }
-//
-// .videoButton {
-// 	font-size: 1.2em;
-// 	padding-top: 5px;
-// 	float: left;
-// }
-//
-// #h4 {
-// 	font-size: 1rem;
-// }
-//
-// h4 div a{
-// 	font-family: 'Waiting for the Sunrise', cursive;
-// 	padding-left: 255px;
-// 	padding-top: 1.5px;
-// 	color: #eee;
-// }
-// h4 div a:hover{
-// 	color: #eee;
-// }
-//
-// h4 div a:visited{
-// 	color: #eee;
-// }
-//
-// .content-underline {
-//     height: 12px;
-//     border: 0;
-//     box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-//     margin-right: 0%;
-//     margin-top: 10px;
-// }
-//
-// .item {
-// 	width: 20%;
-// 	background-repeat: no-repeat;
-// 	background-size: cover;
-// 	float: left;
-// 	height: 570px;
-// 	transition: 0.35s ease-in-out;
-// }
-//
-// .title {
-// 	font-family: Microsoft JhengHei;
-// 	font-size: 2em;
-// 	font-weight: 800;
-// 	color: #333333;
-// 	padding-left: 10px;
-// }
-//
-// .s_intro {
-// 	transition: 0.3s ease-in-out;
-// 	user-select: none;
-// 	opacity: 0;
-// }
-//
-// #國鼎-content {
-// 	color: #333333;
-// }
-//
-//
-// .section2 {
-// 	height: 570px;
-// 	position: relative;
-// 	z-index: 10;
-// }
-//
-// .整體目標與理念 {
-// 	background-color: #404040;
-// 	height: 500px !important;
-// }
-//
-// .目標與理念 {
-// 	font-family: Microsoft JhengHei;
-// 	color: #fff;
-// 	font-size: 2rem;
-// 	font-weight: 800;
-// 	margin: 0% 5% 1% 5%;
-// 	padding-top: 4%;
-//
-// }
-//
-// .目標與理念-underline {
-// 	border:0;
-//     margin:0;
-//     width: 50%;
-//     height: 2px;
-//     background: #ddd;
-//     box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 0.5);
-// }
-//
-// .目標與理念排 {
-// 	padding-top: 4%;
-// 	padding-left: 3%;
-// }
-//
-// a:hover, a:visited, a:link, a:active
-// {
-//     text-decoration: none;
-//     color: #404040;
-// }
-//
-// .目標與理念區 {
-// 	background: #f2f2f2;
-// 	padding: 1% 4.5% 1% 4.5%;
-// 	margin: 1.6% 1%;
-// 	font-family: Microsoft JhengHei;
-// 	font-weight: 800;
-// 	color: #595959;
-// }
-//
-// .fab {
-// 	font-size: 3.6rem;
-// 	width: 100%;
-// }
-//
-// .far {
-// 	font-size: 3.5rem;
-// 	width: 100%;
-// }
-//
-//
-// .fas {
-// 	width: 20%;
-// 	font-size: 3.4rem;
-// 	padding-bottom: 5px;
-// }
-//
-// .fa-users {
-// 	width: 100%;
-// }
-//
-// .fa-leaf {
-// 	width: 100%;
-// }
-//
-// .fa-gg {
-// 	width: 100%;
-// }
-//
-// .fa-handshake {
-// 	width: 100%;
-// }
-//
-// .fa-thumbs-up {
-// 	width: 100%;
-// }
-//
-//
-// .fa-people-carry {
-// 	width: 100%;
-// }
-//
-// .fa-hand-holding-heart {
-// 	width: 100%;
-// }
-//
-// .fa-home {
-// 	width: 100%;
-// }
-//
-//
-// .footer-logo {
-// 	margin-left: 1.5%;
-// }
-//
-// .logo-size {
-// 	width: 20%;
-// }
-//
-// .main-footer {
-// 	background-color: black;
-// }
-//
-// .connectUs {
-// 	color: #fff;
-// 	font-family: Microsoft JhengHei;
-// 	font-weight: 800;
-// 	margin-left: 15%;
-// 	font-size: 1.5rem;
-// }
-//
-// .socialmediaIcon {
-// 	margin-left: 15%;
-// 	margin-top: 7%;
-// 	margin-bottom: 7%;
-// }
-//
-// .fa-facebook {
-// 	width: 12%;
-// 	display: inline-block;
-// 	color: #ddd
-// }
-//
-// .fa-instagram {
-// 	width: 12%;
-// 	display: inline-block;
-// 	color: #ddd;
-// }
-//
-// .fa-youtube {
-// 	width: 12%;
-// 	display: inline-block;
-// 	color: #ddd;
-// }
-//
-// .navigation {
-// 	list-style-type: none;
-// 	color: #fff;
-// 	font-family: Microsoft JhengHei;
-// 	font-weight: 500;
-// }
-//
-// .menu-wrapper {
-// 	font-size: 1.3rem;
-// }
-//
-// a.navigationContent {
-// 	color: #fff;
-// }
-//
-// a.navigationContent:hover {
-// 	color: #bfbfbf;
-// }
-//
-// .constructionSite {
-// 	list-style-type: none;
-// 	color: #fff;
-// 	font-family: Microsoft JhengHei;
-// 	font-weight: 800;
-// }
-//
-// .siteAddress {
-// 	font-size: 0.8rem;
-// 	color: #ddd;
-// 	font-family: Microsoft JhengHei;
-// }
-//
-// .officeHour {
-// 	list-style-type: none;
-// 	color: #fff;
-// 	font-family: Microsoft JhengHei;
-// 	font-weight: 800;
-// }
-//
-// .time {
-// 	font-size: 0.8rem;
-// 	color: #ddd;
-// 	font-family: Microsoft JhengHei;
-// }
-//
-// .phoneNumber {
-// 	list-style-type: none;
-// 	color: #fff;
-// 	font-family: Microsoft JhengHei;
-// 	font-weight: 800;
-// }
-//
-// .number {
-// 	font-size: 0.8rem;
-// 	color: #ddd;
-// 	font-family: Microsoft JhengHei;
-// }
-//
-// .footer-underline {
-//     height: 5px;
-//     border: 0;
-//     box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-// }
-//
-// .copyright {
-// 	color: #fff;
-// 	font-size: 1rem;
-// }
-//
-// } */
-//
-//
-// /* @media screen and (min-width: 768px) {
-// .目標與理念區:hover {
-// 	background: #000066;
-// 	color: #fff;
-// 	border: 1px solid #000066;
-// 	transition: 0.8s ease-in-out;
-// 	transform: scale(1.05);
-// }
-// } */
-//
-// /* @media (min-width: 768px) and (max-width: 992px){
-// 	* {
-// 		font-size: 1rem;
-// 	}
-//
-//
-// 	.banner-image {
-// 		height: calc(100vh - 510px);
-// 		width: 100%;
-// 	}
-//
-//
-// 	#content {
-// 		padding-left: 5px;
-// 	}
-//
-// 	#h4 {
-// 		padding-left: 0px;
-// 	}
-//
-// 	.item:not(#首璽) {
-// 		opacity: 0.9;
-// 		width: 50%;
-// 		height: calc(70vh);
-// 	}
-//
-// 	#首璽 {
-// 		opacity: 0.9;
-// 		width: 100%;
-// 		height: calc(70vh);
-// 	}
-//
-// 	.s_intro {
-// 		display: none;
-// 	}
-//
-// 	.myStory {
-// 		font-size: 0.7rem;
-// 	}
-//
-// 	.整體目標與理念 {
-// 		height: 500px !important;
-// 	}
-//
-// 	.目標與理念排 {
-// 		padding-top: 50px;
-// 		padding-bottom: 50px;
-// 	}
-//
-// 	.col-5 {
-// 		font-size: 1.3rem;
-// 	}
-//
-// 	.banner {
-// 		height: calc(50vh);
-// 	}
-//
-// 	.section2 {
-// 		height: 2150px;
-// 	}
-//
-// 	.fa-building {
-// 		width: 10%;
-// 		padding-right: 15px;
-// 	}
-//
-// 	.fa-phone {
-// 		width: 10%;
-// 		padding-right: 15px;
-// 	}
-//
-// 	.tableBar {
-// 		margin-top: 10px;
-// 	}
-//
-// 	.leftBar {
-// 		padding: 3px 5px;
-// 	}
-//
-// 	.rightBar {
-// 		padding: 3px 5px;
-// 	}
-//
-// 	.footer-logo {
-// 		margin-left: 2%;
-// 	}
-//
-// 	.logo-size {
-// 		width: 30%;
-// 	}
-//
-// 	.main-footer {
-// 		background-color: black;
-// 	}
-//
-// 	.menu-wrapper {
-// 		font-family: Microsoft JhengHei;
-// 	}
-//
-// 	.connectUs {
-// 		color: #fff;
-// 		font-weight: 800;
-// 		margin-left: 0%;
-// 		width: 100%;
-// 	}
-//
-// 	.socialmediaIcon {
-// 		margin-left: 2%;
-// 		margin-top: 4%;
-// 		width: 100%;
-// 	}
-//
-// 	.fa-facebook {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd
-// 	}
-//
-// 	.fa-instagram {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd;
-// 	}
-//
-// 	.fa-youtube {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd;
-// 	}
-//
-// 	div.col-sm-4.col-md-3 {
-// 		width: 30%;
-// 		padding-right: 0;
-// 		padding-left: 8%;
-// 	}
-//
-// 	ul.navigation {
-// 		padding: 0px
-// 	}
-//
-// 	a.navigationContent {
-// 		font-size: 1.2rem;
-//
-// 	}
-//
-// 	ul.constructionSite {
-// 		list-style-type: none;
-// 		color: #fff;
-// 		font-weight: 800;
-// 		padding: 0;
-// 	}
-//
-// 	li.siteName {
-// 		font-size: 1.1rem;
-// 	}
-//
-// 	li.siteAddress {
-// 		font-size: 0.7rem;
-// 		color: #ddd;
-// 	}
-//
-// 	ul.officeHour {
-// 		padding-left: 0%;
-// 		display: inline-block;
-// 	}
-//
-// 	li.openTime {
-// 		font-size: 1.1rem;
-// 	}
-//
-// 	li.time {
-// 		font-size: 0.65rem;
-// 	}
-//
-// 	ul.phoneNumber {
-// 		padding-left: 0%;
-// 		width: 32%;
-// 	}
-//
-// 	li.siteNumber {
-// 		width: 100px;
-// 		font-size: 1rem;
-// 		padding-left: 0%;
-// 	}
-//
-//
-// 	li.number {
-// 		font-size: 0.8rem;
-// 		color: #ddd;
-// 	}
-//
-// 	.footer-underline {
-// 	    height: 5px;
-// 	    border: 0;
-// 	    box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-// 	}
-//
-// 	.copyright {
-// 		color: #fff;
-// 		font-size: 0.8rem;
-// 	}
-//
-// 	.col-md-3 {
-// 		padding-left: 50px !important;
-// 	}
-//
-// 	.toggleIcon {
-// 		padding: 0%;
-// 		width: 15px;
-// 	}
-//
-// } */
-//
-//
-//
-// /*--------------------------------------------------*/
-//
-// /* @media screen and (device-width: 414px), screen and (device-height: 736px) {
-// 	* {
-// 		font-size: 0.8rem;
-// 	}
-//
-// 	.banner-image {
-// 		height: calc(100vh - 367px);
-// 		width: 100%;
-// 	}
-//
-// 	#content {
-// 		padding-left: 5px;
-// 	}
-//
-// 	#h4 {
-// 		padding-left: 0px;
-//
-// 	}
-//
-// 	.item:not(#首璽) {
-// 		opacity: 0.9;
-// 		width: 50%;
-// 		height: calc(50vh);
-// 	}
-//
-// 	#首璽 {
-// 		opacity: 0.9;
-// 		width: 100%;
-// 		height: calc(50vh);
-// 	}
-//
-// 	.s_intro {
-// 		display: none;
-// 	}
-//
-// 	.myStory {
-// 		font-size: 0.7rem;
-// 	}
-//
-// 	.整體目標與理念 {
-// 		height: 480px !important;
-// 	}
-//
-// 	.目標與理念排 {
-// 		padding-top: 25px;
-// 		padding-bottom: 30px;
-// 	}
-//
-// 	.col-5 {
-// 		font-size: 1.3rem;
-// 	}
-//
-// 	.banner {
-// 		height: calc(50vh);
-// 	}
-//
-// 	.section2 {
-// 		height: 1105px;
-// 	}
-//
-// 	.nav-item {
-// 		background-color: #f2f2f2;
-// 	}
-//
-// 	.navbar-brand {
-// 		padding: 0;
-// 	}
-//
-// 	.navbar-nav .nav-link{
-// 		font-family: Microsoft JhengHei;
-// 		font-weight: 700;
-// 		padding-left: 5px;
-// 	}
-//
-// 	.fa-building {
-// 		width: 10%;
-// 		padding-right: 15px;
-// 	}
-//
-// 	.fa-phone {
-// 		width: 10%;
-// 		padding-right: 15px;
-// 	}
-//
-// 	.tableBar {
-// 		margin-top: 10px;
-// 	}
-//
-// 	.leftBar {
-// 		padding: 3px 5px;
-// 	}
-//
-// 	.rightBar {
-// 		padding: 3px 5px;
-// 	}
-//
-// 	.footer-logo {
-// 		margin-left: 2%;
-// 	}
-//
-// 	.logo-size {
-// 		width: 30%;
-// 	}
-//
-// 	.main-footer {
-// 		background-color: black;
-// 	}
-//
-// 	.menu-wrapper {
-// 		font-family: Microsoft JhengHei;
-// 	}
-//
-// 	.connectUs {
-// 		color: #fff;
-// 		font-weight: 800;
-// 		margin-left: 0%;
-// 		width: 100%;
-// 	}
-//
-// 	.socialmediaIcon {
-// 		margin-left: 2%;
-// 		margin-top: 4%;
-// 		width: 100%;
-// 	}
-//
-// 	.fa-facebook {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd
-// 	}
-//
-// 	.fa-instagram {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd;
-// 	}
-//
-// 	.fa-youtube {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd;
-// 	}
-//
-// 	div.col-sm-4.col-md-3 {
-// 		width: 30%;
-// 		padding-right: 0;
-// 		padding-left: 8%;
-// 	}
-//
-// 	ul.navigation {
-// 		padding: 0;
-// 	}
-//
-// 	a.navigationContent {
-// 		font-size: 1.2rem;
-//
-// 	}
-//
-// 	ul.constructionSite {
-// 		list-style-type: none;
-// 		color: #fff;
-// 		font-weight: 800;
-// 		padding: 0;
-// 	}
-//
-// 	li.siteName {
-// 		font-size: 1.1rem;
-// 	}
-//
-// 	li.siteAddress {
-// 		font-size: 0.7rem;
-// 		color: #ddd;
-// 	}
-//
-// 	ul.officeHour {
-// 		padding-left: 0%;
-// 		display: inline-block;
-// 	}
-//
-// 	li.openTime {
-// 		font-size: 1.1rem;
-// 	}
-//
-// 	li.time {
-// 		font-size: 0.65rem;
-// 	}
-//
-// 	ul.phoneNumber {
-// 		display: inline-block;
-// 		padding-left: 8%;
-// 		width: 32%;
-// 	}
-//
-// 	.officeContent {
-// 		width: 100% !important;
-// 	}
-//
-//
-// 	li.siteNumber {
-// 		font-size: 1rem;
-// 		padding-left: 1%;
-// 	}
-//
-//
-// 	li.number {
-// 		font-size: 0.8rem;
-// 		color: #ddd;
-// 	}
-//
-// 	.footer-underline {
-// 	    height: 5px;
-// 	    border: 0;
-// 	    box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-// 	}
-//
-// 	.copyright {
-// 		color: #fff;
-// 		font-size: 0.8rem;
-// 	}
-//
-//
-// 	.toggleIcon {
-// 		padding: 0%;
-// 		width: 15px;
-// 	}
-//
-// } */
-//
-//
-// /*-----------------------------------------------------*/
-// /*
-// @media screen and (device-width: 375px), screen and (device-height: 812px) {
-// 	* {
-// 		font-size: 0.8rem;
-// 	}
-//
-// 	.banner-image {
-// 		height: calc(100vh - 405px);
-// 		width: 100%;
-// 	}
-// 	#content {
-// 		padding-left: 5px;
-// 	}
-//
-// 	#h4 {
-// 		padding-left: 0px;
-//
-// 	}
-//
-// 	.item:not(#首璽) {
-// 		opacity: 0.9;
-// 		width: 50%;
-// 		height: calc(50vh);
-// 	}
-//
-// 	#首璽 {
-// 		opacity: 0.9;
-// 		width: 100%;
-// 		height: calc(50vh);
-// 	}
-//
-// 	.s_intro {
-// 		display: none;
-// 	}
-//
-// 	.myStory {
-// 		font-size: 0.7rem;
-// 	}
-//
-// 	.整體目標與理念 {
-// 		height: 450px !important;
-// 	}
-//
-// 	.col-5 {
-// 		font-size: 1.3rem;
-// 	}
-//
-// 	.banner {
-// 		height: calc(50vh);
-// 	}
-//
-// 	.section2 {
-// 		height: 1220px;
-// 	}
-//
-// 	.nav-item {
-// 		background-color: #f2f2f2;
-// 	}
-//
-// 	.navbar-brand {
-// 		padding: 0;
-// 	}
-//
-// 	.navbar-nav .nav-link{
-// 		font-family: Microsoft JhengHei;
-// 		font-weight: 700;
-// 		padding-left: 5px;
-// 	}
-//
-// 	.fa-building {
-// 		width: 10%;
-// 		padding-right: 15px;
-// 	}
-//
-// 	.fa-phone {
-// 		width: 10%;
-// 		padding-right: 15px;
-// 	}
-//
-// 	.tableBar {
-// 		margin-top: 10px;
-// 	}
-//
-// 	.leftBar {
-// 		padding: 3px 5px;
-// 	}
-//
-// 	.rightBar {
-// 		padding: 3px 5px;
-// 	}
-//
-// 	.footer-logo {
-// 		margin-left: 2%;
-// 	}
-//
-// 	.logo-size {
-// 		width: 30%;
-// 	}
-//
-// 	.main-footer {
-// 		background-color: black;
-// 	}
-//
-// 	.menu-wrapper {
-// 		font-family: Microsoft JhengHei;
-// 	}
-//
-// 	.connectUs {
-// 		color: #fff;
-// 		font-weight: 800;
-// 		margin-left: 0%;
-// 		width: 100%;
-// 	}
-//
-// 	.socialmediaIcon {
-// 		margin-left: 2%;
-// 		margin-top: 4%;
-// 		width: 100%;
-// 	}
-//
-// 	.fa-facebook {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd
-// 	}
-//
-// 	.fa-instagram {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd;
-// 	}
-//
-// 	.fa-youtube {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd;
-// 	}
-//
-// 	div.col-sm-4.col-md-3 {
-// 		width: 30%;
-// 		padding-right: 0;
-// 		padding-left: 8%;
-// 	}
-//
-// 	ul.navigation {
-// 		padding: 0;
-// 	}
-//
-// 	a.navigationContent {
-// 		font-size: 1.2rem;
-//
-// 	}
-//
-// 	ul.constructionSite {
-// 		list-style-type: none;
-// 		color: #fff;
-// 		font-weight: 800;
-// 		padding: 0;
-// 	}
-//
-// 	li.siteName {
-// 		font-size: 1.1rem;
-// 	}
-//
-// 	li.siteAddress {
-// 		font-size: 0.7rem;
-// 		color: #ddd;
-// 	}
-//
-// 	ul.officeHour {
-// 		padding-left: 0%;
-// 		display: inline-block;
-// 	}
-//
-// 	li.openTime {
-// 		font-size: 1.1rem;
-// 	}
-//
-// 	li.time {
-// 		font-size: 0.65rem;
-// 	}
-//
-// 	ul.phoneNumber {
-// 		display: inline-block;
-// 		padding-left: 8%;
-// 		width: 32%;
-// 	}
-//
-// 	.officeContent {
-// 		width: 100% !important;
-// 	}
-//
-//
-// 	li.siteNumber {
-// 		font-size: 1rem;
-// 		padding-left: 1%;
-// 	}
-//
-//
-// 	li.number {
-// 		font-size: 0.8rem;
-// 		color: #ddd;
-// 	}
-//
-// 	.footer-underline {
-// 	    height: 5px;
-// 	    border: 0;
-// 	    box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-// 	}
-//
-// 	.copyright {
-// 		color: #fff;
-// 		font-size: 0.8rem;
-// 	}
-//
-//
-// 	.toggleIcon {
-// 		padding: 0%;
-// 		width: 15px;
-// 	}
-//
-// } */
-//
-// /*---------------------------------------------------*/
-//
-// /* @media screen and (device-width: 376px), screen and (device-height: 667px) {
-// 	* {
-// 		font-size: 0.8rem;
-// 	}
-//
-// 	.banner-image {
-// 		height: calc(100vh - 333px);
-// 		width: 100%;
-// 	}
-//
-// 	#content {
-// 		padding-left: 5px;
-// 	}
-//
-// 	#h4 {
-// 		padding-left: 0px;
-//
-// 	}
-//
-// 	.item:not(#首璽) {
-// 		opacity: 0.9;
-// 		width: 50%;
-// 		height: calc(50vh);
-// 	}
-//
-// 	#首璽 {
-// 		opacity: 0.9;
-// 		width: 100%;
-// 		height: calc(50vh);
-// 	}
-//
-// 	.s_intro {
-// 		display: none;
-// 	}
-//
-// 	.myStory {
-// 		font-size: 0.7rem;
-// 	}
-//
-// 	.整體目標與理念 {
-// 		height: 450px !important;
-// 	}
-//
-// 	.col-5 {
-// 		font-size: 1.3rem;
-// 	}
-//
-// 	.banner {
-// 		height: calc(50vh);
-// 	}
-//
-// 	.section2 {
-// 		height: 1002px;
-// 	}
-//
-//
-// 	.fa-building {
-// 		width: 10%;
-// 		padding-right: 15px;
-// 	}
-//
-// 	.fa-phone {
-// 		width: 10%;
-// 		padding-right: 15px;
-// 	}
-//
-// 	.tableBar {
-// 		margin-top: 10px;
-// 	}
-//
-// 	.leftBar {
-// 		padding: 3px 5px;
-// 	}
-//
-// 	.rightBar {
-// 		padding: 3px 5px;
-// 	}
-//
-// 	.footer-logo {
-// 		margin-left: 2%;
-// 	}
-//
-// 	.logo-size {
-// 		width: 30%;
-// 	}
-//
-// 	.main-footer {
-// 		background-color: black;
-// 	}
-//
-// 	.menu-wrapper {
-// 		font-family: Microsoft JhengHei;
-// 	}
-//
-// 	.connectUs {
-// 		color: #fff;
-// 		font-weight: 800;
-// 		margin-left: 0%;
-// 		width: 100%;
-// 	}
-//
-// 	.socialmediaIcon {
-// 		margin-left: 2%;
-// 		margin-top: 4%;
-// 		width: 100%;
-// 	}
-//
-// 	.fa-facebook {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd
-// 	}
-//
-// 	.fa-instagram {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd;
-// 	}
-//
-// 	.fa-youtube {
-// 		width: 25%;
-// 		display: inline-block;
-// 		color: #ddd;
-// 	}
-//
-// 	div.col-sm-4.col-md-3 {
-// 		width: 30%;
-// 		padding-right: 0;
-// 		padding-left: 8%;
-// 	}
-//
-// 	ul.navigation {
-// 		padding: 0;
-// 	}
-//
-// 	a.navigationContent {
-// 		font-size: 1.2rem;
-//
-// 	}
-//
-// 	ul.constructionSite {
-// 		list-style-type: none;
-// 		color: #fff;
-// 		font-weight: 800;
-// 		padding: 0;
-// 	}
-//
-// 	li.siteName {
-// 		font-size: 1.1rem;
-// 	}
-//
-// 	li.siteAddress {
-// 		font-size: 0.7rem;
-// 		color: #ddd;
-// 	}
-//
-// 	ul.officeHour {
-// 		padding-left: 0%;
-// 		display: inline-block;
-// 	}
-//
-// 	li.openTime {
-// 		font-size: 1.1rem;
-// 	}
-//
-// 	li.time {
-// 		font-size: 0.65rem;
-// 	}
-//
-// 	ul.phoneNumber {
-// 		display: inline-block;
-// 		padding-left: 8%;
-// 		width: 32%;
-// 	}
-//
-// 	.officeContent {
-// 		width: 100% !important;
-// 	}
-//
-//
-// 	li.siteNumber {
-// 		font-size: 1rem;
-// 		padding-left: 1%;
-// 	}
-//
-//
-// 	li.number {
-// 		font-size: 0.8rem;
-// 		color: #ddd;
-// 	}
-//
-// 	.footer-underline {
-// 	    height: 5px;
-// 	    border: 0;
-// 	    box-shadow: inset 0 10px 10px -10px rgba(500, 500, 500, 2);
-// 	}
-//
-// 	.copyright {
-// 		color: #fff;
-// 		font-size: 0.8rem;
-// 	}
-//
-//
-// 	.toggleIcon {
-// 		padding: 0%;
-// 		width: 15px;
-// 	}
-//
-// } */
+}

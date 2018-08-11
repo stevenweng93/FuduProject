@@ -31,8 +31,12 @@ $(window).scroll(function() {
           // change lower navbar to normal
           $('.demo').removeClass("arrow-none");
         }
-      })
-
-$("navbar-toggler").click(function(){
-	$("table-bar-container").hide();
-});
+      });
+$(window).scroll(function() {
+			     scrollPosition = $(window).scrollTop();
+			     if(scrollPosition >= 520) {
+			       $('.table-bar-container').addClass("table-bar-up");
+			     } else {
+			       $('.table-bar-container').removeClass("table-bar-up");
+			     }
+			   });

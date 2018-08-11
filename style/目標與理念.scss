@@ -14,10 +14,10 @@ body {
   	position: absolute;
   	z-index: 1;
   	font-family: Microsoft JhengHei;
-  	font-size: 3.7rem;
+  	font-size: 3.5rem;
   	font-weight: 800;
   	color: #fff;
-  	margin-top: 370px;
+  	margin-top: 270px;
   	text-shadow: 0px 2px 3px #eee;
   	padding: 10px 100px;
   	background-color: rgba(89,89,89,0.7);
@@ -157,14 +157,14 @@ body {
        height: 300px;
        position: absolute;
        margin-top: 50px;
-       margin-left: 80px;
-       box-shadow: 0 0 10px 3px #856046;
+       margin-left: 0px;
+       box-shadow:  0 0 10px  rgba(0,0,0,0.6);
        transition: 0.7s ease-in-out;
       }
       .客戶關係 {
        margin-top: 50px;
-       margin-left: 80px;
-       box-shadow: 0 0 10px 3px #856046;
+       margin-left: 0px;
+       box-shadow:  0 0 10px  rgba(0,0,0,0.6);
        width: 450px;
        height: 300px;
        position: absolute;
@@ -173,8 +173,8 @@ body {
       }
       .人際關係 {
        margin-top: 50px;
-       margin-left: 80px;
-       box-shadow: 0 0 10px 3px #856046;
+       margin-left: 0px;
+       box-shadow:  0 0 10px  rgba(0,0,0,0.6);
        width: 450px;
        height: 300px;
        position: absolute;
@@ -183,8 +183,8 @@ body {
       }
       .環境社區 {
        margin-top: 50px;
-       margin-left: 80px;
-       box-shadow: 0 0 10px 3px #856046;
+       margin-left: 0px;
+       box-shadow:  0 0 10px  rgba(0,0,0,0.6);
        width: 450px;
        height: 300px;
        position: absolute;
@@ -193,8 +193,8 @@ body {
       }
       .負責信任 {
        margin-top: 50px;
-       margin-left: 80px;
-       box-shadow: 0 0 10px 3px #856046;
+       margin-left: 0px;
+       box-shadow:  0 0 10px  rgba(0,0,0,0.6);
        width: 450px;
        height: 300px;
        position: absolute;
@@ -203,8 +203,8 @@ body {
       }
       .合作關係 {
        margin-top: 50px;
-       margin-left: 80px;
-       box-shadow: 0 0 10px 3px #856046;
+       margin-left: 0px;
+       box-shadow:  0 0 10px  rgba(0,0,0,0.6);
        width: 450px;
        height: 300px;
        position: absolute;
@@ -219,9 +219,6 @@ body {
 and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 2)
   {
-		.table-bar-container {
-			display: block !important;
-		}
     .標題寬度 {
       min-width: 330px !important;
       .area-underline {
