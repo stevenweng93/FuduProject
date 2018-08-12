@@ -125,12 +125,8 @@ nav {
 //scroll arrow
 .demo a {
   position: absolute;
-  bottom: 0px;
+  bottom: 10px;
   left: 47%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
   color: #fff;
   font : normal 400 20px/1 'Josefin Sans', sans-serif;
   letter-spacing: .1em;
@@ -384,6 +380,10 @@ nav {
 @media only screen
   and (max-device-width: 812px)
   {
+    #content{
+      padding-left: 5px !important;
+    }
+
     .建案地區title-mobile {
       position: relative;
       z-index: 1;
