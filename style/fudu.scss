@@ -381,7 +381,9 @@ nav {
   and (max-device-width: 812px)
   {
     .banner-image {
-      height: calc(100vh -91.74px);
+      height: -o-calc(100% - 91.74px); /* opera */
+      height: -webkit-calc(100% - 91.74px); /* google, safari */
+      height: -moz-calc(100% - 91.74px); /* firefox */
       width: 100%;
     }
     #content{
