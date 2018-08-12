@@ -380,12 +380,6 @@ nav {
 @media only screen
   and (max-device-width: 812px)
   {
-    .banner-image {
-      height: -o-calc(100vh - 85.74px) !important; /* opera */
-      height: -webkit-calc(100vh - 85.74px) !important; /* google, safari */
-      height: -moz-calc(100vh - 85.74px) !important; /* firefox */
-      width: 100%;
-    }
     #content{
       padding-left: 5px !important;
     }
