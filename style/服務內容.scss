@@ -17,7 +17,7 @@
   	background-color: rgba(89,89,89,0.7);
 		text-align: center;
   }
-}	
+}
 
 
   .服務經句 {
@@ -129,10 +129,6 @@
 
 
 @media only screen and (max-width: 812px) and (orientation: landscape) {
-  * {
-    font-size: 1rem;
-    // text-align: center;
-  }
   .logoonly {
     width: 8% !important;
     margin-top: 3%;
@@ -172,9 +168,6 @@ and (-webkit-min-device-pixel-ratio: 2)
 @media only screen
   and (max-device-width: 812px)
   {
-		* {
-			font-size: 1rem;
-		}
     .服務-banner {
     	background-image: url('../img/新大觀外觀.jpg');
     	height: calc(100vh);
@@ -290,17 +283,16 @@ and (-webkit-min-device-pixel-ratio: 2)
 	        }
 				}
 				.圖片row {
-					height: 300px;
 					.土地開發圖片 {
 						min-width: (100vw);
-						min-height: calc(60vh);
+						min-height: calc(58vh);
 						margin: 0;
 	          position: absolute;
 	          opacity: 1;
 	        }
 	        .建築營造圖片 {
 						min-width: (100vw);
-						min-height: calc(60vh);
+						min-height: calc(58vh);
 						margin: 0;
 	          position: absolute;
 	          opacity: 0;
