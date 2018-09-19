@@ -380,18 +380,6 @@ nav {
 @media only screen
   and (max-device-width: 812px)
   {
-    .服務-banner {
-    	height: calc(100vh);
-    	background-size: cover;
-    	background-position: 0% 90%;
-    	background-attachment: fixed;
-    #content{
-      font-size: 0.8rem;
-      padding: 15px !important;
-      margin-bottom: 120px;
-    }
-  }
-
     .建案地區title-mobile {
       position: relative;
       z-index: 1;
